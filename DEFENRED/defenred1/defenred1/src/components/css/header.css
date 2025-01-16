@@ -1,0 +1,17 @@
+
+.grid{
+    display: grid;
+}
+.grid20-80{
+    grid-template-columns: 20% 80%;
+}
+.logo{
+    width: 150px;
+}
+.grid33{
+    grid-template-columns: 33% 33% 33%;
+}
+.menu{
+    align-items: center;
+    text-align: center;
+}
