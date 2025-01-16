@@ -24,8 +24,20 @@
     src: url('./medios/Tipografías/Rammetto_One/RammettoOne-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+
 }
 
 :root{
 --fuente-logo: 'Rametto';
+--fuente-titulo: 'OpenSansBold';
+--fuente-texto: 'Montserrat';
+
+--col-principal: '#81c3c9';
+--negro: '#000000';
+--azul-oscuro: '#31484a';
+--blanco: '#FFFFFF';
+--marron: '#746960';
+--gris: '#7b888a';
+--naranja: '#c99f81';
+
 }
