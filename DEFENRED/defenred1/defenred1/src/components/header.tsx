@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="grid grid20-80">
       <div className="Logo">
-        <img src="../medios/Logos/Logo.png" alt="logo" />
+        <img className="imagenLogo" src="../medios/Logos/Logo.png" alt="logo"  />
       </div>
       <nav className="menu grid grid33">
         <a href="">Inicio</a>
