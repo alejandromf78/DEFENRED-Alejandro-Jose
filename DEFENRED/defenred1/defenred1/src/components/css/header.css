@@ -5,6 +5,9 @@
 .grid20-80{
     grid-template-columns: 20% 80%;
 }
+.fondo{
+    background-image: url(/);
+}
 .logo{
     width: 150px;
 }
