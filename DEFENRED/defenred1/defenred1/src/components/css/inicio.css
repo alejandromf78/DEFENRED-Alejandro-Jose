@@ -1,0 +1,9 @@
+.inicio{
+& .grid{
+    display: grid;
+}
+& .grid-50{
+    grid-template-columns: 50% 50%;
+}
+
+}
