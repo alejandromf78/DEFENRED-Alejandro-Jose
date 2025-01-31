@@ -5,12 +5,13 @@ const Header = () => {
   return (
     <header className="grid grid20-80">
       <div className="Logo">
-        <img className="imagenLogo" src="../medios/Logos/Logo.png" alt="logo"  />
+        <img className="imagenLogo" src="../medios/Logos/Logo blanco.png" alt="logo"  />
       </div>
-      <nav className="menu grid grid33">
+      <nav className="menu grid grid25">
         <a href="">Inicio</a>
-        <a href="">About Us</a>
+        <a href="">Defenred</a>
         <a href="">Contacto</a>
+        <a href="">Colabora</a>
       </nav>
     </header>
   );
