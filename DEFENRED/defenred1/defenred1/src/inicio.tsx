@@ -1,7 +1,8 @@
 import './components/css/inicio.css'
 const Inicio = () => {
     return (
-        <>
+        <div className='inicio'>
+            
             <div className="contenido">
                 <div className=" grid grid-50">
                     <div className="contenido-izquierda">
@@ -14,10 +15,8 @@ const Inicio = () => {
                             su compromiso con la justicia social.</p>
                     </div>
                     <div className="contenido-derecha">
-                        <p>En Defenred ofrecemos apoyo a defensores de derechos
-                            humanos en riesgo, proporcionando un espacio seguro en la Casa de Respiro.
-                            Nuestro proyecto promueve el autocuidado y el bienestar integral para fortalecer
-                            su compromiso con la justicia social.</p>
+                        
+                            <img src="../public/medios/Fotografías e ilustraciones/bosque rojizo.png" alt="Foto montaña paisaje" className='imagen-bosque' />
 
                     </div>
 
@@ -27,7 +26,7 @@ const Inicio = () => {
 
 
 
-        </>
+        </div>
 
 
     );
