@@ -2,6 +2,8 @@ import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import Header from "./components/header";
 import Banner from "./components/Banner";
 
+//implementar parallax
+
 const App = () => {
   return (
     <section>
