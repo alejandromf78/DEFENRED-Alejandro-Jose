@@ -1,33 +1,19 @@
 import './components/css/inicio.css'
+import Contenido from './components/contenido';
+import ProyectoDefenred from './components/proyectoDefenred';
+import MisionVisionValores from './components/mision-vision-valores';
+
 const Inicio = () => {
     return (
-        <div className='inicio'>
-            
-            <div className="contenido">
-                <div className=" grid grid-50">
-                    <div className="contenido-izquierda">
-                        <h1>Proyecto Defenred</h1>
-                        <h2>Autocuidado y Solidaridad para la Continuidad en la Defensa de
-                            Derechos Humanos</h2>
-                        <p>En Defenred ofrecemos apoyo a defensores de derechos
-                            humanos en riesgo, proporcionando un espacio seguro en la Casa de Respiro.
-                            Nuestro proyecto promueve el autocuidado y el bienestar integral para fortalecer
-                            su compromiso con la justicia social.</p>
-                    </div>
-                    <div className="contenido-derecha">
-                        
-                            <img src="../public/medios/Fotografías e ilustraciones/bosque rojizo.png" alt="Foto montaña paisaje" className='imagen-bosque' />
+        <>
+       <ProyectoDefenred/> 
+       <MisionVisionValores/>
 
-                    </div>
-
-                </div>
-
-            </div>
+       
 
 
-
-        </div>
-
+       
+</>
 
     );
 };
