@@ -1,17 +1,11 @@
-<<<<<<< HEAD
+
 .banner {
   z-index: 1;
   position: absolute;
   top: 0;
   width: 100%;
-=======
-.banner{
-    z-index: 1;
-     position: none; /*estaba en absolute pero se colapsaba con el banner */
-    top: 0;
-    width: 100%;
->>>>>>> f1b8105df36315c7bb19c6300e10e3ba1e29de3d
 }
+
 
 /* Posiciona el h2 en el centro y sobre las imágenes */
 .banner h2 {
