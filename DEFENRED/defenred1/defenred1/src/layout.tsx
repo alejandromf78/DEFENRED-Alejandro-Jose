@@ -6,8 +6,8 @@ import Banner from './components/Banner';
 const Layout=()=>{
     return(
         <>
-        <Banner></Banner>
         <Header></Header>
+        <Banner></Banner>
         <Outlet></Outlet>
         <Footer></Footer>
         </>

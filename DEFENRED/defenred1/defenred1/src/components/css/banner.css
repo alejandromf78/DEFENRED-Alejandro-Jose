@@ -1,6 +1,6 @@
 .banner{
     z-index: 1;
-    position: absolute;
+     position: none; /*estaba en absolute pero se colapsaba con el banner */
     top: 0;
     width: 100%;
 }
