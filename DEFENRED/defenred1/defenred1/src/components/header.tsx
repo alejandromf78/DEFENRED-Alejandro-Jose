@@ -7,20 +7,24 @@ const Header = () => {
   return (
     <header className="grid grid20-80">
       <div className="Logo">
-        <img className="imagenLogo" src="../medios/Logos/Logo blanco.png" alt="logo" />
+        <img
+          className="imagenLogo"
+          src="../medios/Logos/Logo blanco.png"
+          alt="logo"
+        />
       </div>
       <nav className="menu grid grid25">
         <a href="#">Inicio</a>
 
         {/* Menú desplegable en "Defenred" */}
-        <div 
+        <div
           className="menu-item"
           onMouseEnter={() => setIsDropdownOpen(true)}
           onMouseLeave={() => setIsDropdownOpen(false)}
         >
-          <a 
-            href="#" 
-            className="menu-link" 
+          <a
+            href="#"
+            className="menu-link"
             onClick={(e) => {
               e.preventDefault(); // Evita que se recargue la página
               setIsDropdownOpen(!isDropdownOpen);
@@ -41,7 +45,9 @@ const Header = () => {
         </div>
 
         <a href="#">Contacto</a>
-        <a href="#">Colabora</a>
+        <a id="botonColabora" href="#">
+          Colabora
+        </a>
       </nav>
     </header>
   );

@@ -1,39 +1,59 @@
-.banner{
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    width: 100%;
+.banner {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
-
-.imagenBanner{
-    width: 100%;
+/* Posiciona el h2 en el centro y sobre las imágenes */
+.banner h2 {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+z-index: 2;
+color: white; /* Ajusta el color según necesites */
 }
 
-body { margin: 0; } 
-div#slider { overflow: hidden; } /* las imágenes no van a salir del márgen de la pantalla*/
-div#slider figure img { width: 20%; float: left; }
+.imagenBanner {
+  width: 100%;
+}
 
-div#slider figure { 
+body { 
+margin: 0; 
+} 
+
+div#slider { 
+overflow: hidden; /* Las imágenes no se salen del margen de la pantalla */
+}
+
+div#slider figure {
   position: relative;
-  width: 500%;
+  width: 500%; /* 4 imágenes */
   margin: 0;
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 30s slidy infinite; /*el movimiento se va a mantener de forma indefinida -infinito-*/
+  animation: 30s slidy infinite;
 }
 
+div#slider figure img { 
+  width: 20%; /* Cada imagen ocupa 25% */
+  float: left; 
+}
 
-/*esta parte del código define el movimiento de las imágenes a la izquierda*/
 @keyframes slidy {
-0% { left: 0%; }
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -400%; }
+  0% { left: 0%; }
+  20% { left: 0%; }       /* Imagen 1 estable */
+  25% { left: -100%; }    /* Transición a imagen 2 */
+  45% { left: -100%; }    /* Imagen 2 estable */
+  50% { left: -200%; }    /* Transición a imagen 3 */
+  70% { left: -200%; }    /* Imagen 3 estable */
+  75% { left: -300%; }    /* Transición a imagen 4 */
+  90% { left: -300%; }    /* Imagen 4 estable */
+  95% { left: -400%; }    /* Transición a imagen 5 (duplicada de la 1) */
+  100% { left: -400%; }   /* Imagen 5 estable (para un loop imperceptible) */
 }
+
+

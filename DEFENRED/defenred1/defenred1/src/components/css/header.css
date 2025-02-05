@@ -73,3 +73,10 @@ a {
 .submenu a:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
+
+#botonColabora{
+    background-color: #31484a;
+    width: 60%;
+    padding: 10px 10px; 
+    
+}
