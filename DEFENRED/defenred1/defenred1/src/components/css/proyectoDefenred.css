@@ -1,6 +1,8 @@
+
+
 .inicio {
     & .proyectoDefenred {
-        background-color: white;
+        background-color: var(--blanco);
     }
 
     & .contenido-izquierda,
@@ -83,4 +85,5 @@
         border: none;
 
     }
+    
 }

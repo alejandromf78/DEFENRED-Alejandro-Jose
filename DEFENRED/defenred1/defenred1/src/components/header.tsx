@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./css/header.css";
+import {Link} from 'react-router-dom'
 
 const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -35,7 +36,7 @@ const Header = () => {
 
           {isDropdownOpen && (
             <div className="submenu">
-              <a href="#">¿Quiénes somos?</a>
+              <Link to="#">¿Quiénes somos?</Link>
               <a href="#">¿Qué hacemos?</a>
               <a href="#">Formación</a>
               <a href="#">Casa de Respiro</a>
@@ -45,9 +46,9 @@ const Header = () => {
         </div>
 
         <a href="#">Contacto</a>
-        <a id="botonColabora" href="#">
+        <Link to="./Colabora.tsx" id="botonColabora" >
           Colabora
-        </a>
+        </Link>
       </nav>
     </header>
   );
