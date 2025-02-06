@@ -1,49 +1,49 @@
-.grid {
+& .grid {
     display: grid;
 }
-.grid20-80 {
+& .grid20-80 {
     grid-template-columns: 20% 80%;
 }
-.logo {
+& .logo {
     width: 100px;
 }
-.grid25 {
+& .grid25 {
     grid-template-columns: 25% 25% 25% 25%;
 }
-.menu {
+& .menu {
     align-items: center;
     text-align: center;
 }
-header {
+& header {
     z-index: 10;
-    position: absolute; /*estaba en absolute pero se colapsaba con el banner */
+    position: none; /*estaba en absolute pero se colapsaba con el banner */
     top: 0;
     background-color: rgba(160, 158, 158, 0.3);
 }
-a {
+& a {
     text-decoration: none;
     color: white;
     font-size: larger;
 }
-* {
+& * {
     font-family: "Rametto";
     color: white;
 }
 
 /* 🔽 Solo lo necesario para el menú desplegable */
-.menu-item {
+& .menu-item {
     position: relative;
     display: inline-block;
     padding: 15px 20px; /* Aumenta el área de interacción */
 }
 
-.menu-link {
+& .menu-link {
     display: block; /* Hace que el "a" ocupe todo el área */
     padding: 20% 16px;
     cursor: pointer;
 }
 
-.submenu {
+& .submenu {
     position: absolute;
     top: 100%;
     left: 0;
@@ -59,22 +59,22 @@ a {
     display: none;
 }
 
-.menu-item:hover .submenu,
+& .menu-item:hover .submenu,
 .menu-item:focus-within .submenu { /* Mantiene abierto si se hace clic */
     display: block;
 }
 
-.submenu a {
+& .submenu a {
     padding: 15px 12px; /* Aumenta el área de clic en las opciones */
     display: block;
     font-size: medium;
 }
 
-.submenu a:hover {
+& .submenu a:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-#botonColabora{
+& #botonColabora{
     background-color: #31484a;
     width: 60%;
     padding: 10px 10px; 
