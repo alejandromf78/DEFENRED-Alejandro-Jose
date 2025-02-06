@@ -1,52 +1,71 @@
-.inicio{
-    & .div-mision{
-        background-color: #31484a;
-    }
+.mision {
+  & .div-mision {
+    background-color: #31484a;
+  }
 
-    & .contenido-izquierda,
-          .contenido-derecha {
-            padding: 10px; 
-            width: 70%;
-            text-align: center;
-            margin: auto;
-            
-          }
+  & .grid-33 {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%; /* Tres columnas de igual ancho */
+    gap: 10px; /* Opcional: espacio entre columnas */
+  }
+  
+  & .mision-defenred {
+    background-color: #81c3c9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+
+  & .vision-defenred {
+    background-color: #81c3c9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+
+  & .valores-defenred {
+    background-color: #81c3c9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+
+  & .contenido-arriba {
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+  }
+  
+ & .mision-defenred{
+  width: 100%;
+  }
+
+
+  & .imagen-bosque {
+    max-width: 35%;
+    margin-top: 74px;
+    margin-bottom: 100px;
+
+  }
+
+  & h2 {
+    margin-bottom: 40px;
+    font-family: 'OpenSansItalic';
     
-          & .contenido-izquierda {
-            padding: 10px;
-            width: 75%;
-            text-align: center;
-            margin-bottom: 180px;
-        }
-            
-         
-          & .imagen-bosque{
-            max-width: 75%;
-            margin-top: 74px;
-            margin-bottom: 100px;
-    
-          }
-         & h1{
-          margin-bottom: 40px;
-          font-family: 'OpenSansItalic';
-          font-size: 84px;
-          color: #81c3c9;
-          }
-          & h2{
-            margin-bottom: 40px;
-            font-family: 'OpenSansItalic';
-            margin-bottom: 60px;
-            color: #31484a;
-            font-size: 40px;
-          }
-          & p{
-            margin-bottom: 40px;
-            font-family: 'OpenSansItalic';
-            margin-bottom: 200px;
-            font-size: 20px;
-            color: black;
-          }
-         & strong{
-            color: black;
-        }
-    }
+    color: white;
+    font-size: 60px;
+  }
+
+  & p {
+    margin-bottom: 40px;
+    font-family: 'OpenSansItalic';
+    margin-bottom: 200px;
+    font-size: 20px;
+    color: black;
+  }
+
+  & strong {
+    color: black;
+  }
+}
