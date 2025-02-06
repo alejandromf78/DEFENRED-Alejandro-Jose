@@ -27,7 +27,7 @@ const ProyectoDefenred = () => {
                     </div>
                     <div className="contenido-derecha">
 
-                        <img src='../public/medios/Fotografías e ilustraciones/bosque rojizo.png' alt="Foto montaña paisaje" className='imagen-bosque' />
+                        <img src='/medios/Fotografías e ilustraciones/bosque rojizo.png' alt="Foto montaña paisaje" className='imagen-bosque' />
 
                     </div>
 
