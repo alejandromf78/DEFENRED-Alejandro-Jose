@@ -16,7 +16,7 @@
 }
 & header {
     z-index: 10;
-    position: none; /*estaba en absolute pero se colapsaba con el banner */
+    position: absolute; /*estaba en absolute pero se colapsaba con el banner */
     top: 0;
     background-color: rgba(160, 158, 158, 0.3);
 }

@@ -1,33 +1,7 @@
 .mision {
   & .div-mision {
     background-color: #31484a;
-  }
-
-  & .grid-33 {
-    display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%; /* Tres columnas de igual ancho */
-    gap: 10px; /* Opcional: espacio entre columnas */
-  }
-  
-  & .mision-defenred {
-    background-color: #81c3c9;
-    padding: 20px;
-    border: 1px solid #ccc;
-    text-align: center;
-  }
-
-  & .vision-defenred {
-    background-color: #81c3c9;
-    padding: 20px;
-    border: 1px solid #ccc;
-    text-align: center;
-  }
-
-  & .valores-defenred {
-    background-color: #81c3c9;
-    padding: 20px;
-    border: 1px solid #ccc;
-    text-align: center;
+    overflow-x: hidden;
   }
 
   & .contenido-arriba {
@@ -36,36 +10,56 @@
     margin: auto;
     margin-top: 40px;
   }
-  
- & .mision-defenred{
-  width: 100%;
-  }
-
-
-  & .imagen-bosque {
-    max-width: 35%;
-    margin-top: 74px;
-    margin-bottom: 100px;
-
-  }
 
   & h2 {
-    margin-bottom: 40px;
-    font-family: 'OpenSansItalic';
-    
     color: white;
-    font-size: 60px;
+    font-family: 'OpenSansItalic';
+    font-size: 45px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+
+  }
+
+  & .grid-20 {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap: 20px;
+  }
+
+  & .mision-defenred {
+    background-color: #81c3c9;
+    text-align: center;
+    width: 100%;
+
+  }
+
+  & .imagen-bosque {
+    max-width: 100%;
+    margin-bottom: 10px;
+
+  }
+
+  & .vision-defenred {
+    background-color: #81c3c9;
+    text-align: center;
+    width: 100%;
+
+
+  }
+
+  & .valores-defenred {
+    background-color: #81c3c9;
+    text-align: center;
+    width: 100%;
+
+
   }
 
   & p {
-    margin-bottom: 40px;
     font-family: 'OpenSansItalic';
-    margin-bottom: 200px;
-    font-size: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
     color: black;
-  }
-
-  & strong {
-    color: black;
-  }
+    padding: 30px;
+}
 }
