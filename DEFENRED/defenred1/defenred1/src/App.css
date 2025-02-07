@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: 'Rametto';
     src: url('./medios/Tipografías/Rammetto_One/RammettoOne-Regular.ttf') format('truetype');

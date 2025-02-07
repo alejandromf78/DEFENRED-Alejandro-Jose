@@ -1,3 +1,5 @@
+import "./css/colabora.css";
+
 const Colabora = () => {
   return (
     <div id="Colabora">
