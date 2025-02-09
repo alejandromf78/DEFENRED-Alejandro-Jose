@@ -1,3 +1,5 @@
+import "./css/quienesSomos.css";
+
 const QuienesSomos = () => {
   return (
     <div id="quienesSomos">
