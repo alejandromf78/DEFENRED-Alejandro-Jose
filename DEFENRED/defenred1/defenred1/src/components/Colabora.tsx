@@ -31,6 +31,25 @@ const Colabora = () => {
         <strong>salud emocional</strong> para la continuidad de su lucha por la{" "}
         <strong>justicia social.</strong>
       </p>
+
+      <div className="contenedorFormulario">
+        <form action="">
+          <label htmlFor="">Nombre y apellidos*</label>
+          <input type="text" />
+          <label htmlFor="">Email*</label>
+          <input type="text" />
+          <label htmlFor="">Teléfono</label>
+          <input type="number" name="" id="" />
+          <input type="checkbox" name="" id="" />
+          <label htmlFor="">
+            Acepto <span className="amarillo">Política de privacidad</span> y el{" "}
+            <span className="amarillo">Aviso Legal</span>
+          </label>
+          <input type="checkbox" name="" id="" />
+          <label htmlFor="">Deseo Suscribirme al Boletín</label>
+          <button type="submit">Enviar Formulario</button>
+        </form>
+      </div>
     </div>
   );
 };
