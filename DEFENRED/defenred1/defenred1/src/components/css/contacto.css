@@ -18,13 +18,31 @@
     
 }
 
-& #contenedorContacto{
+& #contenedorForm{ 
+    width: 100%;
     text-align: center;
-    width: 70%;
 }
 
 & form{
     color: white;
+    width: 55%;
+    border: 1px solid black;
+    margin: auto;
     
 }
+
+& .grid{
+    display: grid;
+}
+& .grid6{
+    grid-template-rows: auto;
+}
+& .grid50{
+    grid-template-columns: 50% 50%;
+}
+
+& .filas{
+    margin: 15px;
+}
+
 }
