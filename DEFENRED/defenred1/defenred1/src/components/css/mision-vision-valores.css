@@ -19,40 +19,44 @@
     margin-top: 40px;
 
   }
+  & h3{
+    margin-top: 15px;
+  }
 
   & .grid-20 {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 33.33% 33.33% 33.33%;
     gap: 20px;
+    width: 80%;
+    margin: auto;
   }
 
-  & .mision-defenred {
-    background-color: #81c3c9;
-    text-align: center;
-    width: 100%;
-
-  }
-
-  & .imagen-bosque {
-    max-width: 100%;
-    margin-bottom: 10px;
-
-  }
-
-  & .vision-defenred {
-    background-color: #81c3c9;
-    text-align: center;
-    width: 100%;
-
-
-  }
-
+  & .mision-defenred, 
+  & .vision-defenred, 
   & .valores-defenred {
-    background-color: #81c3c9;
-    text-align: center;
-    width: 100%;
-
-
+      background-color: #81c3c9;
+      text-align: center;
+      width: 80%;
+      transition: all 0.3s ease; /* Transición suave para todo */
+  }
+  
+  & .mision-defenred:hover, 
+  & .vision-defenred:hover, 
+  & .valores-defenred:hover {
+      background-color: #000; /* Cambia el color de fondo a negro */
+      color: #fff; /* Cambia el texto a blanco */
+      transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil para dar profundidad */
+  }
+  
+  & .imagen-bosque {
+      max-width: 100%;
+      margin-bottom: 10px;
+      transition: transform 0.3s ease; /* Transición solo para el tamaño de la imagen */
+  }
+  
+  & .imagen-bosque:hover {
+      filter: grayscale(100%); /* Cambia la imagen a blanco y negro */
   }
 
   & p {

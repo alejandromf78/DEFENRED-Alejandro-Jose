@@ -14,7 +14,7 @@ const MisionVisionValores = () => {
                     </div>
 
                     <div className="grid-20">
-                        <div></div>
+                        
                         <div className="mision-defenred">
                             <img src="../public/medios/Fotografías e ilustraciones/bosque rojizo.png" alt="" className="imagen-bosque" />
                             <h3>Misión</h3>
@@ -41,7 +41,11 @@ const MisionVisionValores = () => {
                                 contribuyendo así a la mejora de sus comunidades y a la promoción de la justicia
                                 social.</p>
                         </div>
-                        <div></div>
+                        
+                    </div>
+                    <div className="contenido-arriba">
+                        <h2>~Personas Cuidan Personas~</h2>
+
                     </div>
 
 
