@@ -15,7 +15,7 @@ const Header = () => {
         />
       </div>
       <nav className="menu grid grid25">
-        <a href="#">Inicio</a>
+        <Link to='/'>Inicio</Link>
 
         {/* Menú desplegable en "Defenred" */}
         <div
