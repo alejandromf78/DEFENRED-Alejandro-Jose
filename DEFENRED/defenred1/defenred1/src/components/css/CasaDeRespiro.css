@@ -1,5 +1,51 @@
 .casa-respiro{
     & *{
-        background-color: brown;
+        background-color: rgb(226, 226, 226);
+        margin: 0;
+    }
+    & .grid{
+        display: grid;
+    }
+     & .grid-50{
+        grid-template-columns: 50% 50%;
+        gap: 20px;
+        
+      }
+      & .contenido-izquierda {
+        padding: 10px;
+        width:90%;
+        text-align: center;
+        padding-top: 10px;
+        margin-left: 170px;
+    }
+    & .texto p{
+        background-color: rgba(12, 109, 112, 0.13);
+        width: auto;
+        height: 300px;
+
+    }
+    & h1 {
+        padding: 10px;
+        text-align: center;
+        margin: auto;
+      }
+    
+      & h2 {
+        color: white;
+        font-family: 'OpenSansItalic';
+        font-size: 45px;
+        margin-bottom: 60px;
+        margin-top: 40px;
+    
+      }
+      & h3{
+        margin-top: 15px;
+      }
+      & p {
+        font-family: 'OpenSansItalic';
+        margin-bottom: 15px;
+        font-size: 18px;
+        color: black;
+        padding: 30px;
     }
 }
