@@ -8,7 +8,9 @@ const CasaDeRespiro = () => {
 
         <div className=" grid grid-50">
           <div className="contenido-izquierda">
-            <h1>El programa Casa de Respiro - Defenred</h1>
+          
+            <h1>«Casa de Respiro»</h1>
+            <h2>El programa</h2>
 
             <p>
               Nuestro programa de <strong>“Casa de Respiro”</strong> le prestamos
@@ -36,18 +38,25 @@ const CasaDeRespiro = () => {
             </p>
 
           </div>
+          <div className='contenido-derecha'>
+          <img src='/medios/Fotografías e ilustraciones/bosque rojizo.png' alt="Foto montaña paisaje" className='foto-derecha' />
+          </div>
 
 
           <ul>
+            
             <li>
+              <span> <img src="https://cdn-icons-png.freepik.com/512/14614/14614440.png" alt="" /></span>
               Evaluar el <strong>estado de salud</strong> de las personas defensoras
               para entender el efecto de su trabajo en sus vidas.
             </li>
             <li>
+            <span> <img src="https://cdn-icons-png.freepik.com/512/14614/14614440.png" alt="" /></span>
               Incorporar la necesidad del <strong>autocuidado</strong> en su trabajo
               diario.
             </li>
             <li>
+            <span> <img src="https://cdn-icons-png.freepik.com/512/14614/14614440.png" alt="" /></span>
               Ofrecer <strong>herramientas de autocuidado</strong> para que puedan
               aplicarlas en práctica cuando regresen a su país.
             </li>
