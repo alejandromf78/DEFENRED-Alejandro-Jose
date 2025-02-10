@@ -1,10 +1,13 @@
+import "./css/contacto.css";
+
+
 const Contacto = () => {
   return (
-    <div>
+    <div id="contenedorContacto">
       <h1>
         Contacta con <strong>Defenred</strong>{" "}
       </h1>
-      <h2>
+      <h2 id="subtituloContacto">
         Conecta con Nosotross para Saber Más sobre Nuestra{" "}
         <strong>Red de Apoyo</strong> y <strong>Solidaridad</strong>{" "}
       </h2>

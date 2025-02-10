@@ -53,4 +53,7 @@ html{
 .imagenLogo{
     width: 100%;
 }
+strong{
+    font-weight: 100;
+}
 
