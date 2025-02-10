@@ -17,7 +17,7 @@ const Contacto = () => {
         <strong>apoyo</strong> a defensores de <strong>derechos humanos</strong>
         . Contáctanos para saber más.
       </p>
-      <div>
+      <div id="contenedorForm">
         <form action="">
           <label htmlFor="">Nombre y apellidos*</label>
           <input type="text" />

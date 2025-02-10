@@ -1,16 +1,30 @@
-h1{
+#contenedorContacto{
+    background-color: var(--azul-oscuro);
+    color: white;
+    font-family: "Montserrat";
+& h1{
     text-align: center;
     font-family: var(--fuente-titulo);
+}
+& p{
+    font-family:"Montserrat" ;
 }
 #subtituloContacto{
     text-align: center;
 }
-#contenedorContacto{
-    background-color: var(--azul-oscuro);
-    color: white;
-    font-family: "Mont";
-}
-#contenedorContacto strong{
+
+& strong{
     color: var(--col-principal);
     
+}
+
+& #contenedorContacto{
+    text-align: center;
+    width: 70%;
+}
+
+& form{
+    color: white;
+    
+}
 }

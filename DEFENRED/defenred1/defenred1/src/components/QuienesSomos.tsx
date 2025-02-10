@@ -2,6 +2,7 @@ import "./css/quienesSomos.css";
 
 const QuienesSomos = () => {
   return (
+    
     <div id="quienesSomos">
       <h1>
         ¿Quién es <strong>Defenred</strong>?
