@@ -1,0 +1,5 @@
+.casa-respiro{
+    & *{
+        background-color: brown;
+    }
+}

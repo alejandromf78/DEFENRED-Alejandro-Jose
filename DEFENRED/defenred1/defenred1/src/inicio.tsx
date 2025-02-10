@@ -3,6 +3,7 @@ import Contenido from './components/contenido';
 import ProyectoDefenred from './components/proyectoDefenred';
 import MisionVisionValores from './components/mision-vision-valores';
 import Colabora from './components/Colabora';
+import CasaDeRespiro from './components/CasaDeRespiro';
 
 
 const Inicio = () => {
@@ -10,6 +11,7 @@ const Inicio = () => {
         <>
             <ProyectoDefenred/> 
             <MisionVisionValores/>
+            <CasaDeRespiro/>
             <Colabora/>
         </>
 
