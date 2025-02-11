@@ -1,5 +1,82 @@
 #Colabora{
+
+background-color: var(--azul-oscuro);
+text-align: center;
+
 &*{
     color: black;
+    
 }
+
+& #tituloColabora{
+    color: white;
+    font-size: 50px;
+    margin: 30px;
+}
+
+& #subtituloColabora{
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+}
+
+& .metaDescripcion{
+    margin: 30px;
+}
+
+& p{
+    color: white;
+}
+
+& #contenedorForm{ 
+    width: 100%;
+    text-align: center;
+    padding-bottom: 35px;
+    align-items: center;
+    padding: 60px;
+}
+
+& form{
+    color: white;
+        width: 72%;
+        border: 1px solid white;
+        margin: auto;
+        height: 378px;
+    
+}
+
+& .grid{
+    display: grid;
+}
+& .grid6{
+    grid-template-rows: 14.28% 14.28% 14.28% 14.28% 14.28% 14.28% 14.28% ;
+}
+& .grid50{
+    grid-template-columns: 50% 50%;
+}
+
+& .filas{
+    margin: 22px;
+}
+
+& #botonEnviarForm{
+    bottom: 0px;
+}
+
+& .amarillo{
+    color: var(--naranja);
+}
+& .amarilloFondo{
+    background-color: var(--naranja);
+
+}
+& #checkbox1 , #checkbox2{
+    height: 22px;
+}
+
+& label{
+    font-family: var(--fuente-texto);
+}
+}
+
 }

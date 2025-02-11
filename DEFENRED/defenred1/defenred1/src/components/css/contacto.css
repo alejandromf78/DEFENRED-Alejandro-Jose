@@ -2,10 +2,17 @@
     background-color: var(--azul-oscuro);
     color: white;
     font-family: "Montserrat";
+    padding: 50px;
 & h1{
     text-align: center;
     font-family: var(--fuente-titulo);
+    margin: 25px;
 }
+
+& #subtituloContacto{
+    margin: 25px;
+}
+
 & p{
     font-family:"Montserrat" ;
 }
@@ -13,21 +20,19 @@
     text-align: center;
 }
 
-& strong{
-    color: var(--col-principal);
-    
-}
 
 & #contenedorForm{ 
     width: 100%;
     text-align: center;
+    padding-bottom: 35px
 }
 
 & form{
     color: white;
-    width: 55%;
-    border: 1px solid black;
-    margin: auto;
+        width: 40%;
+        border: 1px solid white;
+        margin: auto;
+        height: 350px;
     
 }
 
@@ -35,14 +40,32 @@
     display: grid;
 }
 & .grid6{
-    grid-template-rows: auto;
+    grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
 }
 & .grid50{
     grid-template-columns: 50% 50%;
 }
 
 & .filas{
-    margin: 15px;
+    margin: 26px;
 }
 
+& #botonEnviarForm{
+    bottom: 0px;
+}
+
+& .amarillo{
+    color: var(--naranja);
+}
+& .amarilloFondo{
+    background-color: var(--naranja);
+
+}
+& #checkbox1 , #checkbox2{
+    height: 22px;
+}
+
+& label{
+    font-family: var(--fuente-texto);
+}
 }

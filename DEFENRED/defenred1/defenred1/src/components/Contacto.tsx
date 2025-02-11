@@ -32,18 +32,18 @@ const Contacto = () => {
             <input type="number" name="" id="" />
           </div>
           <div className="grid grid50 filas">
-            <input type="checkbox" name="" id="" />
+            <input type="checkbox" name="" id="checkbox1" />
             <label htmlFor="">
               Acepto <span className="amarillo">Política de privacidad</span> y el{" "}
               <span className="amarillo">Aviso Legal</span>
             </label>
           </div>
           <div className="grid grid50 filas">
-            <input type="checkbox" name="" id="" />
+            <input type="checkbox" name="" id="checkbox2" />
             <label htmlFor="">Deseo Suscribirme al Boletín</label>
           </div>
-          <div className="grid">
-            <button type="submit">Enviar Formulario</button>
+          <div className="grid" id="botonEnviarForm">
+            <button className="amarilloFondo" type="submit">Enviar Formulario</button>
           </div>
 
         </form>

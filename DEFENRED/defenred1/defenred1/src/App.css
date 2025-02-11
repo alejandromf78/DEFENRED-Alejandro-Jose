@@ -4,28 +4,28 @@ html{
 
 @font-face {
     font-family: 'Rametto';
-    src: url('./medios/Tipografías/Rammetto_One/RammettoOne-Regular.ttf') format('truetype');
+    src: url('/medios/Tipografías/Rammetto_One/RammettoOne-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'OpenSansBold';
-    src: url('./medios/Tipografías/Open_Sans/') format('truetype');
+    src: url('/medios/Tipografías/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'OpenSansItalic';
-    src: url('./medios/Tipografías/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf') format('truetype');
+    src: url('/medios/Tipografías/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('./medios/Tipografías/Rammetto_One/RammettoOne-Regular.ttf') format('truetype');
+    src: url('/medios/Tipografías/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
