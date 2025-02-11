@@ -1,3 +1,6 @@
+import Enredados from "./Enredados";
+import Publicaciones from "./Publicaciones";
+
 const QueHacemos = () => {
   return (
     <div>
@@ -13,6 +16,8 @@ const QueHacemos = () => {
         <strong>autocuidado</strong>, reforzando así su labor por la{" "}
         <strong>justicia social</strong>.
       </p>
+      <Enredados></Enredados>
+      <Publicaciones></Publicaciones>
     </div>
   );
 };

@@ -37,10 +37,10 @@ const Header = () => {
           {isDropdownOpen && (
             <div className="submenu">
               <Link to="./QuienesSomos">¿Quiénes somos?</Link>
-              <a href="#">¿Qué hacemos?</a>
-              <a href="#">Formación</a>
-              <a href="#">Casa de Respiro</a>
-              <a href="#">Autocuidado</a>
+              <Link to="./QueHacemos">¿Qué hacemos?</Link>
+              <Link to="./Formacion">Formación</Link>
+              <Link to="./CasaDeRespiro">Casa de Respiro</Link>
+              <Link to="./Autocuidado">Autocuidado</Link>
             </div>
           )}
         </div>
