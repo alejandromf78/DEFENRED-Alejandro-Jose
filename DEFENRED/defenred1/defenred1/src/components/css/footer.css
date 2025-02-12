@@ -43,6 +43,11 @@
         display: flex;
         font-family: Arial, sans-serif;
         gap: 50px;
+        margin-top: 40px;
+    }
+    & .links{
+        margin-top: 12px;
+        
     }
 
     & .creado-por {
@@ -56,6 +61,13 @@
             font-size: 18px;
         }
 
+    }
+    & .quien{
+        margin-left: 100px;
+        text-align: left;
+    }
+    & .redes-sociales{
+        margin-top: 40px;
     }
 
 

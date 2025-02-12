@@ -28,18 +28,18 @@ function Footer() {
           {/*3 empieza div de links */}
           <div className="grid-33-links">
             {/* Columa quienes somos(primera columna) */}
-            <div>
+            <div className="quien">
               <h4>Quienes Somos</h4>
-              <div>Nuestro Proposito</div>
-              <div>Nuestra Historia</div>
-              <div>Trabaja con nosotros</div>
+              <div className="links">Nuestro Proposito</div>
+              <div className="links">Nuestra Historia</div>
+              <div className="links">Trabaja con nosotros</div>
             </div>
             {/* Columna que hacemos(segunda columna) */}
             <div>
               <h4>Que hacemos</h4>
-              <div>Nuestro Proposito</div>
-              <div>Nuestra Historia</div>
-              <div>Trabaja con nosotros</div>
+              <div className="links">Nuestro Proposito</div>
+              <div className="links">Nuestra Historia</div>
+              <div className="links">Trabaja con nosotros</div>
             </div>
 
             <div>
