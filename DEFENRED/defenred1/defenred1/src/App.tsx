@@ -5,7 +5,7 @@ import Contacto from "./components/Contacto"
 import QuienesSomos from "./components/QuienesSomos";
 import QueHacemos from "./components/QueHacemos";
 import Formacion from "./components/Formacion";
-import CasaDeRespiro from "./components/CasaDeRespiro";
+import CasaDeRespiro from "./components/CasaDeRespiroAzul";
 import Autocuidado from "./components/Autocuidado";
 
 //implementar parallax

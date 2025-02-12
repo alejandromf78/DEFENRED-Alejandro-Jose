@@ -1,0 +1,102 @@
+.casa-respiro-azul {
+  & * {
+    margin: 0;
+  }
+
+  & .grid {
+    display: grid;
+  }
+
+  & .grid-50 {
+    grid-template-columns: 70% 30%;
+    gap: 20px;
+    margin: auto;
+    width: 90%;
+
+  }
+
+  & .contenido-izquierda {
+    padding: 10px;
+    text-align: center;
+    padding-top: 10px;
+
+  }
+
+  & .contenido-derecha {
+    margin: auto;
+  }
+
+  & .foto-derecha {
+    height: auto;
+    border-radius: 25px;
+    margin-top: 225px;
+  }
+
+  & .texto p {
+    background-color: rgba(12, 109, 112, 0.13);
+    width: 80%;
+    font-size: 18px;
+    border-left: 4px solid orange;
+    margin: auto;
+
+  }
+
+  & h1 {
+    padding-top: 50px;
+    text-align: left;
+    margin: auto;
+    font-family: 'OpenSansItalic';
+    font-size: 45px;
+  }
+
+  & h2 {
+    font-family: 'OpenSansItalic';
+    text-align: left;
+    font-size: 45px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+  }
+
+  & h3 {
+    margin-top: 15px;
+  }
+
+  & p {
+    font-family: 'OpenSansItalic';
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: black;
+    padding: 30px;
+  }
+
+  & ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  & li {
+    margin-bottom: 15px;
+  }
+
+  img {
+    border-style: none;
+    vertical-align: top;
+    max-width: 100%;
+    height: auto;
+  }
+
+  & span img {
+    border-style: none;
+    vertical-align: top;
+    max-width: 100%;
+    height: 30px;
+  }
+
+  & span {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+}

@@ -16,7 +16,7 @@ const MisionVisionValores = () => {
                     <div className="grid-20">
                         
                         <div className="mision-defenred">
-                            <img src="../public/medios/Fotografías e ilustraciones/bosque rojizo.png" alt="" className="imagen-bosque" />
+                            <img src="/medios/Fotografías e ilustraciones/pajaros.png" alt="" className="imagen-bosque" />
                             <h3>Misión</h3>
                             <p>Nuestra misión es apoyar a los defensores de derechos
                                 humanos en un entorno seguro y de autocuidado, impulsando el bienestar y la
@@ -24,7 +24,7 @@ const MisionVisionValores = () => {
                                 un mundo más justo y equitativo.</p>
                         </div>
                         <div className="vision-defenred">
-                            <img src="../public/medios/Fotografías e ilustraciones/bosque rojizo.png" alt="" className="imagen-bosque" />
+                            <img src="/medios/Fotografías e ilustraciones/vacas.png" alt="" className="imagen-bosque" />
                             <h3>Visión</h3>
                             <p>Promover el <strong> bienestar integral </strong> de las <strong> personas defensoras </strong> de los
                                 <strong> derechos humanos </strong> a través del programa <strong> "Casa de Respiro" </strong> , proporcionando un
@@ -33,7 +33,7 @@ const MisionVisionValores = () => {
                                 sostenible.</p>
                         </div>
                         <div className="valores-defenred">
-                            <img src="../public/medios/Fotografías e ilustraciones/bosque rojizo.png" alt="" className="imagen-bosque" />
+                            <img src="/medios/Fotografías e ilustraciones/paisaje montaña.png" alt="" className="imagen-bosque" />
                             <h3>Valores</h3>
                             <p>Crear un mundo en el que todas las personas defensoras de los derechos
                                 humanos tengan acceso a recursos de autocuidado y apoyo emocional, lo que les

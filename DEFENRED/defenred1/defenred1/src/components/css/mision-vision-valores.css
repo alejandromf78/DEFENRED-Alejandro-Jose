@@ -38,6 +38,7 @@
       text-align: center;
       width: 80%;
       transition: all 0.3s ease; /* Transición suave para todo */
+      border-radius: 25px;
   }
   
   & .mision-defenred:hover, 
@@ -52,7 +53,10 @@
   & .imagen-bosque {
       max-width: 100%;
       margin-bottom: 10px;
-      transition: transform 0.3s ease; /* Transición solo para el tamaño de la imagen */
+      transition: transform 0.3s ease;
+      height: 300px;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
   }
   
   & .imagen-bosque:hover {

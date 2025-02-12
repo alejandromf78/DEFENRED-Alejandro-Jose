@@ -1,118 +1,67 @@
 import './css/CasaDeRespiro.css'
+import { Helmet } from "react-helmet";
 
 const CasaDeRespiro = () => {
-  return (
-    <div className='casa-respiro'>
+    return (
+        <div className='casa-respiro'>
+            <Helmet>
+                <meta name="description" content="descripción: En La Cabrera, Madrid, Casa de Respiro de Defenred es un espacio seguro donde defensores de derechos humanos encuentran descanso, apoyo psicológico y recursos para fortalecer su salud y bienestar." />
+                <meta name="keywords" content="Casa de Respiro, Defenred, Derechos humanos, Autocuidado, Madrid,Defensores, Salud física, Salud mental, Bienestar, Apoyo" />
+                <title>Proyecto Defenred</title>
+            </Helmet>
 
-      <div>
-
-        <div className=" grid grid-50">
-          <div className="contenido-izquierda">
-          
             <h1>«Casa de Respiro»</h1>
-            <h2>El programa</h2>
+                    <h2>¿Cuáles son los servicios que proporciona La Casa de Respiro?</h2>
+            <div className=" grid grid-50">
+                
+                <div className="contenido-izquierda">
 
-            <p>
-              Nuestro programa de <strong>“Casa de Respiro”</strong> le prestamos
-              atención al <strong>autocuidado</strong> para las personas defensoras de
-              derechos humanos.
-            </p>
-            <div className='texto'>
-              <p>
-                La <strong>“Casa de Respiro”</strong> surge de la hipótesis de que si
-                los activistas toman un tiempo de descanso enfocándose en su{" "}
-                <strong>salud</strong> tanto física como mental, podrán identificar su
-                propio estado actual y ver cómo su trabajo en la{" "}
-                <strong>defensa de los derechos humanos</strong> impacta en su vida. Lo
-                que queremos hacer con este programa es generar{" "}
-                <strong>cambios positivos</strong> en su entorno para mejorar su{" "}
-                <strong>salud física</strong> y <strong>mental</strong>, y así ayudarles
-                a continuar su labor de manera más saludable para ellos.
-              </p>
+                    
+
+
+                    <div className='texto'>
+                        <ul>
+
+                            <li>
+                                <span> <img src="https://cdn-icons-png.freepik.com/512/14614/14614440.png" alt="" /></span>
+                                Tiempo para descansar y recuperarse
+                            </li>
+                            <p>Un lugar donde los defensores pueden desconectar de la rutina diaria y cuidar su
+                                salud física y emocional, fomentando su bienestar mental y su autocuidado.</p>
+                            <li>
+                                <span> <img src="https://cdn-icons-png.freepik.com/512/14614/14614440.png" alt="" /></span>
+                                Entrenamiento en cuidado personal y gestión del estrés
+                            </li>
+                            <p>Talleres y actividades diseñados para que cada persona adquiera conocimientos
+                                sobre cómo gestionar el estrés y pueda utilizar esas habilidades en su vida personal
+                                y laboral.</p>
+                            <li>
+                                <span> <img src="https://cdn-icons-png.freepik.com/512/14614/14614440.png" alt="" /></span>
+                                Asesoramiento psicosocial personalizado
+                            </li>
+                            <p>Un grupo de expertos en psicología y salud mental ofrece ayuda durante este
+                                periodo de descanso, promoviendo un proceso de curación que permita seguir con
+                                su activismo de forma más saludable.</p>
+                        </ul>
+
+                    </div>
+
+
+                </div>
+                <div className='contenido-derecha'>
+                    <img src="/medios/Fotografías e ilustraciones/Naturaleza pájaros.png" alt="Naturaleza pájaros" className='foto-derecha' />
+
+                    <div className="boton-casa">
+                            <button className="casa-respiro">Casa de Respiro »</button>
+                        </div>
+                </div>
+
+
+
+
             </div>
-
-            <p>
-              El objetivo principal de este programa es visibilizar nuestra
-              herramienta <strong>“el autocuidado”</strong> en la labor de la defensa
-              de los derechos humanos y, para ello, planteamos:
-            </p>
-
-          </div>
-          <div className='contenido-derecha'>
-          <img src='/medios/Fotografías e ilustraciones/bosque rojizo.png' alt="Foto montaña paisaje" className='foto-derecha' />
-          </div>
-
-
-          <ul>
-            
-            <li>
-              <span> <img src="https://cdn-icons-png.freepik.com/512/14614/14614440.png" alt="" /></span>
-              Evaluar el <strong>estado de salud</strong> de las personas defensoras
-              para entender el efecto de su trabajo en sus vidas.
-            </li>
-            <li>
-            <span> <img src="https://cdn-icons-png.freepik.com/512/14614/14614440.png" alt="" /></span>
-              Incorporar la necesidad del <strong>autocuidado</strong> en su trabajo
-              diario.
-            </li>
-            <li>
-            <span> <img src="https://cdn-icons-png.freepik.com/512/14614/14614440.png" alt="" /></span>
-              Ofrecer <strong>herramientas de autocuidado</strong> para que puedan
-              aplicarlas en práctica cuando regresen a su país.
-            </li>
-          </ul>
-
-          <p>
-            Nuestro programa busca promover una vida más{" "}
-            <strong>equilibrada</strong> y <strong>sostenible</strong> para quienes
-            defienden los derechos humanos, asegurando que puedan mantener su labor
-            en mejores condiciones y sin que les afecte más de lo necesario.
-          </p>
-
-          <h2>¿Qué ofrecemos en nuestro programa?</h2>
-          <p>
-            En nuestro programa ayudamos a aquellas personas a que tengan una
-            oportunidad de <strong>tomar un descanso</strong> y reflexionar sobre
-            sus <strong>prácticas de autocuidado</strong>. Para ello proponemos
-            actividades desde distintos campos de la <strong>salud</strong>:
-          </p>
-          <ul>
-            <li>
-              <strong>Apoyo Psicológico</strong>
-            </li>
-            <li>
-              <strong>Trabajo Corporal</strong>
-            </li>
-            <li>
-              <strong>Acompañamiento de espacios de ocio</strong>
-            </li>
-            <li>
-              <strong>El valor terapéutico de la solidaridad</strong>
-            </li>
-          </ul>
-
-          <h2>¿Dónde y cómo se realizará el programa?</h2>
-          <p>
-            La <strong>Casa de Respiro</strong> se encuentra en un pequeño municipio
-            cercano a <strong>Madrid</strong> llamado <strong>La Cabrera</strong>,
-            en un entorno rural tranquilo que ofrece{" "}
-            <strong>contacto con la naturaleza</strong> y espacios abiertos ideales
-            para pasear y descansar. La ubicación permite a los visitantes disfrutar
-            de un ambiente <strong>acogedor</strong> y <strong>relajante</strong>,
-            facilitando un descanso adecuado.
-          </p>
-          <p>
-            Además, el entorno ofrece oportunidades de conexión con la comunidad
-            local y municipios cercanos, permitiendo participar en actividades
-            variadas en un espacio <strong>natural</strong> y{" "}
-            <strong>saludable</strong>, lo que contribuye positivamente al programa
-            de <strong>autocuidado</strong>.
-          </p>
         </div>
-
-      </div>
-    </div>
-  );
+    );
 };
 
 export default CasaDeRespiro;
