@@ -1,7 +1,74 @@
-#quienesSomos{
+#quienesSomosWrapper{
+    padding: 5%;
+    background-color: var(--azul-oscuro);
+    
+}
 
-    & *{
-        color: black;
+#quienesSomos{
+    color: white;
+    
+    margin: auto;
+    background-color: var(--azul-oscuro);
+ 
+    & strong{
+        font-weight: 400;
     }
     
+    & h1{
+        font-family: var(--fuente-titulo);
+    }
+    & h2{
+        font-family: var(--fuente-titulo);
+    }
+    & p{
+        font-family: var(--fuente-texto);
+    }
+    #contenedorTestimonios{
+        border: 1px black solid;
+        margin-top: 40px;
+        padding-bottom: 30px;
+        background-color: var(--col-principal);
+        color: var(--marron);
+    }
+
+    #tituloQuienesSomos{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    #subtituloQuienesSomos{
+        text-align: center;
+        padding: 30px;
+
+    }
+    #tituloTestimonios{
+        text-align: center;
+        padding: 30px;
+    }
+
+    & #testimonios{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+
+        
+        
+    }
+    & .testimonio{
+        
+        text-align: justify;
+        padding: 8%;
+
+        h4{
+            text-align: center;
+            padding: 10px;
+        }
+    }
+
+    & .grid{
+        display: grid;
+    }
+    & .grid33{
+        grid-template-columns: 33.33% 33.33% 33.33% ;
+    }
 }

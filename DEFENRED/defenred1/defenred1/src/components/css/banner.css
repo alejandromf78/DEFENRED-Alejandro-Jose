@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
 
 .banner {
   z-index: 1;
@@ -5,7 +6,6 @@
   top: 0;
   width: 100%;
 }
-
 
 /* Posiciona el h2 en el centro y sobre las imágenes */
 .banner h2 {
@@ -15,16 +15,18 @@ left: 50%;
 transform: translate(-50%, -50%);
 text-align: center;
 z-index: 2;
-color: white; /* Ajusta el color según necesites */
+color: white; 
+font-family: "Corinthia";
+font-weight: 700;
+font-size: 70px;
+
 }
 
 .imagenBanner {
   width: 100%;
 }
 
-body { 
-margin: 0; 
-} 
+
 
 div#slider { 
 overflow: hidden; /* Las imágenes no se salen del margen de la pantalla */
