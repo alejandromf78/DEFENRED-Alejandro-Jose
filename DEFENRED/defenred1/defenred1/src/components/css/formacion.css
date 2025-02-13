@@ -1,6 +1,6 @@
 .formacion {
     & * {
-        font-family: 'OpenSansItalic';
+        font-family: 'OpenSansItalic';  /* La fuente afecta a toda la pagina, hay que cambiarlo */
         text-align: center;
         margin: 0;
         padding: 0;

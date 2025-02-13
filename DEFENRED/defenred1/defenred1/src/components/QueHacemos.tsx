@@ -8,7 +8,7 @@ const QueHacemos = () => {
       <div id="contenedorQueHacemos">
         <h1 className="titulo">¿Qué hace Defenred?</h1>
         <h2>
-          <span className="">Nuestra labor:</span> Promover el{" "}
+          <span className="naranja">Nuestra labor:</span> Promover el{" "}
           <strong>Autocuidado</strong> y la <strong>Seguridad</strong> en la
           Defensa de los Derechos Humanos
         </h2>

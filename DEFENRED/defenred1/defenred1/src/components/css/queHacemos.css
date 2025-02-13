@@ -23,7 +23,7 @@
 & h1 {
     font-size: 54px;
     color: var(--naranja);
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 & .grid{
     display: grid;
@@ -35,11 +35,22 @@
 
 & h2{
     font-size: 36px;
-    color: var(--naranja);
+    
     padding-bottom: 30px;
-    font-family: var(--fuente-titulo);
+    font-family: var(--fuente-titulo); 
+}
+& h3{
+    padding-bottom: 30px;
+}
+& .naranja{
+    color: var(--naranja);
+    font-family: ;
+}
 
-    strong{
-        color: var(--naranja);
-    }
+& #enredados{
+    padding-top: 100px;
+}
+
+& #publicaciones{
+    padding-top: 100px;
 }
