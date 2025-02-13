@@ -7,12 +7,14 @@ import QueHacemos from "./components/QueHacemos";
 import Formacion from "./components/Formacion";
 import CasaDeRespiro from "./components/CasaDeRespiroAzul";
 import Autocuidado from "./components/Autocuidado";
+import ScrollToTop from "./components/ScrollToTop";
 
 //implementar parallax
 
 const App = () => {
   return (
     <Router>
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="/" element={<Inicio></Inicio>}></Route>
@@ -22,6 +24,7 @@ const App = () => {
           <Route path="/Formacion" element={<Formacion></Formacion>}></Route>
           <Route path="/CasaDeRespiro" element={<CasaDeRespiro></CasaDeRespiro>}></Route>
           <Route path="/Autocuidado" element={<Autocuidado></Autocuidado>}></Route>
+          
         </Route>
       </Routes>
     </Router>

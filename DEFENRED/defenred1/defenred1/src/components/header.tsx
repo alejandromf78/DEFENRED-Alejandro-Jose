@@ -46,9 +46,8 @@ const Header = () => {
         </div>
 
         <Link to="./Contacto">Contacto</Link>
-        <a href="#Colabora" id="botonColabora">
-          Colabora
-        </a>
+        
+        <Link to="/#Colabora" id="botonColabora">Colabora</Link>
       </nav>
     </header>
   );
