@@ -1,5 +1,6 @@
 import './css/CasaDeRespiro.css'
-import { Helmet } from "react-helmet";
+import {Helmet} from 'react-helmet';
+import { Link } from "react-router-dom";
 
 const CasaDeRespiro = () => {
     return (
@@ -52,7 +53,7 @@ const CasaDeRespiro = () => {
                     <img src="/medios/Fotografías e ilustraciones/Naturaleza pájaros.png" alt="Naturaleza pájaros" className='foto-derecha' />
 
                     <div className="boton-casa">
-                            <button className="casa-respiro">Casa de Respiro »</button>
+                            <button className="casa-respiro"><Link to="/CasaDeRespiroAzul">Casa de Respiro »</Link></button>
                         </div>
                 </div>
 
