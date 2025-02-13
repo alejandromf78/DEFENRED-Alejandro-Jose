@@ -1,0 +1,93 @@
+.formacion {
+    & * {
+        font-family: 'OpenSansItalic';
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    & .contenedor-formacion {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+    }
+
+    & .titulo h2 {
+        font-size: 54px;
+        color: #333;
+    }
+
+    & .texto p {
+        font-size: 18px;
+        color: #555;
+        margin: 20px 0;
+        margin-bottom: 50px;
+    }
+
+    & .boton {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #c3836a;
+        color: white;
+        text-decoration: none;
+        font-size: 1em;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+
+    & .boton:hover {
+        background-color: #a96e58;
+    }
+
+    & strong {
+        color: black;
+    }
+}
+
+.metodologia {
+    background-color:#31484a;
+
+
+    &.grid {
+        display: grid;
+
+    }
+
+    & .grid-40 {
+        grid-template-columns: 40% 60%;
+        width: 80%;
+        margin: auto;
+        padding: 40px 40px;
+
+    }
+
+    & img {
+        max-width: 100%;
+    }
+
+     & .derecha {
+        p {
+            font-size: 18px;
+            color: white;
+        }
+
+        h2 {
+            margin-bottom: 50px;
+            color: white;
+            font-size:56px ;
+        }
+
+    }
+
+    &.izquierda {}
+
+    & .bosque-verde {
+
+        height: 500px;
+
+    }
+    & strong {
+        color: rgba(222, 236, 18, 0.801);
+    }
+}

@@ -1,6 +1,6 @@
 .footer-entero {
     & * {
-        background-color: #F28C00;
+        background-color: var(--naranja);
 
     }
 
