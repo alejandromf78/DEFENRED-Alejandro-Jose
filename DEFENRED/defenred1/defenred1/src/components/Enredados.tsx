@@ -1,3 +1,5 @@
+import "./css/queHacemos.css";
+
 const Enredados = () => {
   return (
     <div>

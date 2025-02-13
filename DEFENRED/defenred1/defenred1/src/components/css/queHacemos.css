@@ -1,0 +1,45 @@
+& * {
+    font-family: 'OpenSansItalic';
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+    color: white;
+}
+& p{
+    font-family: var(--fuente-texto);
+}
+
+& #contenedorQueHacemos {
+    max-width: 70%;
+    padding: 50px;
+    margin: auto;
+    background-color: var(--azul-oscuro);
+}
+& #queHacemos{
+    background-color: var(--azul-oscuro);
+}
+
+& h1 {
+    font-size: 54px;
+    color: var(--naranja);
+    padding-bottom: 30px;
+}
+& .grid{
+    display: grid;
+}
+& .grid50{
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+& h2{
+    font-size: 36px;
+    color: var(--naranja);
+    padding-bottom: 30px;
+    font-family: var(--fuente-titulo);
+
+    strong{
+        color: var(--naranja);
+    }
+}
