@@ -16,6 +16,12 @@
     & .titulo h2 {
         font-size: 54px;
         color: #333;
+        
+    }
+
+    & .titulo img {
+        width: 400px;
+        
     }
 
     & .texto p {
@@ -87,6 +93,7 @@
 
         height: 500px;
         border-radius: 10px;
+        margin-top: 65px;
 
     }
 
@@ -102,8 +109,79 @@
             font-size: 56px;
         }
     }
+    
 
     & strong {
         color: rgba(222, 236, 18, 0.801);
     }
+}
+.algunas-formaciones {
+    background-color: orange;
+}
+
+.algunas-formaciones img {
+    max-width: 100%;
+}
+
+.algunas-formaciones .titulo h2 {
+    font-size: 54px;
+    color: #333;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.algunas-formaciones .cuadrados {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    width: 67%;
+    margin: auto;
+    padding: 30px 40px;
+    gap: 40px;
+}
+
+.algunas-formaciones .cuidado-colectivo,
+.algunas-formaciones .formacion-experiencial-cuidado,
+.algunas-formaciones .autocuidados-equipos,
+.algunas-formaciones .atencion-psicosocial,
+.algunas-formaciones .facilitacion,
+.algunas-formaciones .difusion,
+.algunas-formaciones .respiro {
+    background-image: url("/medios/Fotografías e ilustraciones/cuadrado-formacion.png");
+    background-size: cover;
+    padding: 40px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+}
+
+.algunas-formaciones .cuidado-colectivo:hover,
+.algunas-formaciones .formacion-experiencial-cuidado:hover,
+.algunas-formaciones .autocuidados-equipos:hover,
+.algunas-formaciones .atencion-psicosocial:hover,
+.algunas-formaciones .facilitacion:hover,
+.algunas-formaciones .difusion:hover,
+.algunas-formaciones .respiro:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al pasar el ratón */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    opacity: 0.9; /* Hace que se vea ligeramente translúcido */
+}
+
+.algunas-formaciones .ciudad {
+    padding: 40px 0;
+    border-bottom: 2px solid rgb(252, 254, 255);
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+.algunas-formaciones h3,
+.algunas-formaciones h4 {
+    text-align: left;
+    color: white;
+}
+
+.algunas-formaciones p {
+    text-align: left;
+    width: 80%;
+    color: white;
 }
