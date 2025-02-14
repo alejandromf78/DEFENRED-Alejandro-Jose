@@ -1,6 +1,7 @@
 .formacion {
     & * {
-        font-family: 'OpenSansItalic';  /* La fuente afecta a toda la pagina, hay que cambiarlo */
+        font-family: 'OpenSansItalic';
+        /* La fuente afecta a toda la pagina, hay que cambiarlo */
         text-align: center;
         margin: 0;
         padding: 0;
@@ -46,7 +47,7 @@
 }
 
 .metodologia {
-    background-color:#31484a;
+    background-color: #31484a;
 
 
     &.grid {
@@ -66,16 +67,16 @@
         max-width: 100%;
     }
 
-     & .derecha {
-        p {
+    .derecha {
+        & p {
             font-size: 18px;
             color: white;
         }
 
-        h2 {
+        & h2 {
             margin-bottom: 50px;
             color: white;
-            font-size:56px ;
+            font-size: 56px;
         }
 
     }
@@ -85,8 +86,23 @@
     & .bosque-verde {
 
         height: 500px;
+        border-radius: 10px;
 
     }
+
+    & .contenido-arriba {
+        padding: 10px;
+        text-align: center;
+        margin: auto;
+        margin-top: 40px;
+
+        & h2 {
+            margin-bottom: 50px;
+            color: white;
+            font-size: 56px;
+        }
+    }
+
     & strong {
         color: rgba(222, 236, 18, 0.801);
     }

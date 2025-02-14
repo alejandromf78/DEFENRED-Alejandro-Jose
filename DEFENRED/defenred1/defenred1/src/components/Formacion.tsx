@@ -53,6 +53,10 @@ const Formacion = () => {
           </div>
 
         </div>
+        <div className="contenido-arriba">
+          <h2>~Personas Cuidan Personas~</h2>
+
+        </div>
 
       </div>
 
