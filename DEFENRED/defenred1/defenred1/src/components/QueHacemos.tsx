@@ -20,10 +20,10 @@ const QueHacemos = () => {
             <strong>autocuidado</strong>, reforzando así su labor por la{" "}
             <strong>justicia social</strong>.
           </p>
-          <img
-            src="/medios/Fotografías e ilustraciones/pájaro.png"
+          <img className="imagenQueHacemos"
+            src="/medios/Fotografías e ilustraciones/imagen queHacemos1.png"
             alt=""
-            width="100%"
+            width="70%" 
           />
         </div>
         <Enredados></Enredados>

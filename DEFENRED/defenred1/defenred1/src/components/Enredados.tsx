@@ -13,6 +13,13 @@ const Enredados = () => {
       </h3>
       <div className="grid grid50 caja">
         <div>
+          <img className="imagenQueHacemos"
+            
+            src="/medios/Fotografías e ilustraciones/imagen quehacemos2.png"
+            alt=""
+          />
+        </div>
+        <div>
           <p>
             <strong>Defenred</strong> colabora con diversas{" "}
             <strong>organizaciones de defensa de los derechos humanos</strong>{" "}
@@ -34,13 +41,7 @@ const Enredados = () => {
             <strong>organizaciones de defensa de los derechos humanos</strong>.
           </p>
         </div>
-        <div>
-          <img
-            width="100%"
-            src="/medios/Fotografías e ilustraciones/vaca.png"
-            alt=""
-          />
-        </div>
+        
       </div>
     </div>
   );

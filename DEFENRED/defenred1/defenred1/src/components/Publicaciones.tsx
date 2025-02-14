@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./css/queHacemos.css";
 
 const Publicaciones = () => {
@@ -11,7 +12,7 @@ const Publicaciones = () => {
         <strong>Derechos Humanos</strong>
       </h3>
       <div className="grid grid50 caja">
-        <div>
+        <div className="padding">
           <p>
             Este libro incluye historias cortas sobre personas valientes que
             lucharon por los <strong>Derechos Humanos</strong>. Hablan con gran
@@ -20,24 +21,21 @@ const Publicaciones = () => {
             ayudar a hacer del mundo un lugar mejor y más amable.
           </p>
         </div>
-        <div>
+        <div className="padding">
           <p>
             El libro está escrito por{" "}
             <strong>Loreto Rodríguez de Rivera</strong> y{" "}
             <strong>Ana Martínez</strong>, con ilustraciones de
-            <strong>Gerardo Domínguez</strong>. Además, apoya el proyecto{" "}
+            <strong> Gerardo Domínguez</strong>. Además, apoya el proyecto{" "}
             <strong>Defenred - Casa de Respiro</strong>, que brinda descanso y
             atención a personas defensoras de <strong>derechos humanos</strong>.
           </p>
           <p>
-            <a
-              href="URL_DE_LA_CASA_DE_RESPIRO" // Reemplazar con el enlace real de la Casa de Respiro
-              target="_blank" //Ponerlo en donde pone Defenred - Casa de Respiro
-            >
+            <Link to="/CasaDeRespiro">
               <span className="naranja">
                 Más información sobre la Casa de Respiro &rarr;
-              </span>{" "}
-            </a>
+              </span>
+            </Link>
           </p>
         </div>
       </div>

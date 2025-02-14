@@ -1,0 +1,39 @@
+#autocuidado{
+    text-align: center;
+
+}
+ #contenedorAutocuidado{
+    background-color: var(--azul-oscuro);
+    color: white;
+    padding: 7%;
+    text-align: center;
+}
+
+& .contenedorDiv{
+    padding: 50px;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+}
+
+& .grid{
+    display: grid;
+}
+
+& .grid50{
+    grid-template-columns: 50% 50%;
+}
+& .divIzquierda{
+    width: 90%;
+}
+& .tituloAutocuidado{
+    color: var(--naranja);
+    font-family: "OpenSansItalic";
+    font-size: 60px;
+}
+& .subtituloAutocuidado{
+    padding-bottom: 30px;
+}
+& p{
+    font-family: var(--fuente-texto);
+}

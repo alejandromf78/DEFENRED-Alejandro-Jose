@@ -1,15 +1,27 @@
+import "./css/autocuidado.css";
+
 const Autocuidado = () => {
   return (
-    <div>
-      <h1>Estrategias para el Autocuidado</h1>
-      <p>
+    <div id="Autocuidado">
+      <div id="contenedorAutocuidado">
+        
+      <h1 className="tituloAutocuidado">Estrategias para el Autocuidado</h1>
+      <div className="contenedorDiv grid grid50">
+        <div className="divIzquierda">
+        <p>
         Aprende cómo el <strong>autocuidado</strong> puede mejorar tu{" "}
         <strong>bienestar emocional</strong> y <strong>físico</strong> mediante
         estrategias colectivas y personales, promovidas en{" "}
         <a href="#">Casa de Respiro</a> para defensores de derechos humanos.
       </p>
+      </div>
+      <div>
+        <img src="/medios/Fotografías e ilustraciones/autocuidado1.png" alt="" width="80%" />
+      </div>
+      </div>
 
-      <h2>Autocuidado Integral para el Bienestar Físico y Mental</h2>
+      <div className="contenedorDiv">
+      <h2 className="subtituloAutocuidado">Autocuidado Integral para el Bienestar Físico y Mental</h2>
       <p>
         Hablamos de <strong>salud</strong> desde una perspectiva cultural
         diferente. Esto significa que valoramos la atención médica de muchas
@@ -18,6 +30,7 @@ const Autocuidado = () => {
         aprendan de los conocimientos antiguos y los combinen con lo que sabemos
         hoy. De esta manera, todos podemos estar más sanos.
       </p>
+
       <p>
         La <strong>Organización Panamericana de la Salud</strong> afirma que la{" "}
         <strong>salud holística</strong> es vivir en armonía con la naturaleza,
@@ -32,8 +45,12 @@ const Autocuidado = () => {
         su <strong>cuerpo</strong> y su <strong>mente</strong> de una manera
         especial.
       </p>
+      </div>
 
-      <h2>
+      <img src="/medios/Fotografías e ilustraciones/autocuidado3.png" alt="" height="400px"/>
+
+      <div className="contenedorDiv">
+      <h2 className="subtituloAutocuidado">
         Fortaleciendo el Autocuidado Colectivo para la Defensa de los Derechos
         Humanos
       </h2>
@@ -53,6 +70,8 @@ const Autocuidado = () => {
         mejor si seguimos usando ideas o reglas que hacen daño, porque eso solo
         hace que todo siga igual.
       </p>
+    </div>
+    </div>
     </div>
   );
 };
