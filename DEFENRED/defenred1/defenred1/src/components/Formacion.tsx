@@ -2,6 +2,10 @@ import { Link } from 'react-router-dom';
 import './css/formacion.css'
 
 const Formacion = () => {
+  const handleScroll = () => {
+    document.getElementById('algunas-formaciones').scrollIntoView({ behavior: 'smooth' });
+  };
+  
   return (
     <>
       <div className='formacion'>
@@ -27,7 +31,7 @@ const Formacion = () => {
             </p></div>
 
           <div>
-            <button className="boton"><Link to="nuestros proyectos(abajo, faltan por añadir)">Nuestros Proyectos</Link></button>
+          <button className="boton" onClick={handleScroll}>Nuestros Proyectos</button>
           </div>
         </div>
         <div className='metodologia'>
@@ -70,7 +74,7 @@ const Formacion = () => {
 
         </div>
 
-        <div className='algunas-formaciones'>
+        <div id='algunas-formaciones'>
           <div className="titulo">
             <h2>Algunas de nuestras formaciones:</h2>
             <img src="/medios/Logos/Logo blanco.png" alt="Logo" />
@@ -117,7 +121,7 @@ const Formacion = () => {
 
             </div>
             {/* unica columna */}
-            <div className='cuadrados'>
+            <div className='contenedor-respiro'>
               <div className='respiro'>
                 <h3>Respiro</h3>
                 <div className='ciudad'><h4>México</h4></div>
