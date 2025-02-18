@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './css/formacion.css'
+import { Helmet } from 'react-helmet';
 
 const Formacion = () => {
   const handleScroll = () => {
@@ -10,6 +11,11 @@ const Formacion = () => {
     <>
       <div className='formacion'>
 
+      <Helmet>
+              <meta name="description" content="Ofrecemos formación práctica en cuidado colectivo y autocuidado para defensores de derechos humanos, adaptada a las necesidades de cada grupo y enfocada en su salud y bienestar." />
+              <meta name="keywords" content="Programa, Casa de Respiro, Defenred, Salud, Seguridad, Apoyo mutuo, Metodología, Derechos Humanos, Formaciones, Autocuidado" />
+              <title>Formación en Autocuidado para Defensores</title>
+            </Helmet>
         <div className="contenedor-formacion">
           <div className="titulo">
             <h2>¿Cómo es nuestra formación?</h2>

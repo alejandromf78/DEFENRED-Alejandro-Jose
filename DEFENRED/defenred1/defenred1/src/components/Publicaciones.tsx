@@ -1,9 +1,15 @@
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 import "./css/queHacemos.css";
 
 const Publicaciones = () => {
   return (
     <div id="publicaciones">
+      <Helmet>
+        <meta name="description" content="Explora las publicaciones de Defenred, incluido nuestro libro, donde compartimos nuestras experiencias y la importancia de la colaboración comunitaria." />
+        <meta name="keywords" content="Defenred, Derechos humanos, Casa de Respiro" />
+        <title>Publicaciones sobre Derechos Humanos</title>
+      </Helmet>
       <h2>
         <span className="naranja">Publicaciones</span> sobre Derechos Humanos
       </h2>

@@ -1,23 +1,23 @@
 import './css/CasaDeRespiro.css'
-import {Helmet} from 'react-helmet';
+import { Helmet } from 'react-helmet';
 import { Link } from "react-router-dom";
 
 const CasaDeRespiro = () => {
     return (
         <div className='casa-respiro'>
             <Helmet>
-                <meta name="description" content="descripción: En La Cabrera, Madrid, Casa de Respiro de Defenred es un espacio seguro donde defensores de derechos humanos encuentran descanso, apoyo psicológico y recursos para fortalecer su salud y bienestar." />
-                <meta name="keywords" content="Casa de Respiro, Defenred, Derechos humanos, Autocuidado, Madrid,Defensores, Salud física, Salud mental, Bienestar, Apoyo" />
-                <title>Proyecto Defenred</title>
+                <meta name="description" content="En La Cabrera, Madrid, Casa de Respiro de Defenred es un espacio seguro donde defensores de derechos humanos encuentran descanso, apoyo psicológico y recursos para fortalecer su salud y bienestar." />
+                <meta name="keywords" content="Casa de Respiro, Defenred, Derechos Humanos, Autocuidado, Madrid, Defensores, Salud física, Salud mental, Bienestar, Apoyo" />
+                <title>Casa de Respiro</title>
             </Helmet>
 
             <h1>«Casa de Respiro»</h1>
-                    <h2>¿Cuáles son los servicios que proporciona La Casa de Respiro?</h2>
+            <h2>¿Cuáles son los servicios que proporciona La Casa de Respiro?</h2>
             <div className=" grid grid-50">
-                
+
                 <div className="contenido-izquierda">
 
-                    
+
 
 
                     <div className='texto'>
@@ -53,8 +53,8 @@ const CasaDeRespiro = () => {
                     <img src="/medios/Fotografías e ilustraciones/Naturaleza pájaros.png" alt="Naturaleza pájaros" className='foto-derecha' />
 
                     <div className="boton-casa">
-                            <button className="casa-respiro"><Link to="/CasaDeRespiroAzul">Casa de Respiro »</Link></button>
-                        </div>
+                        <button className="casa-respiro"><Link to="/CasaDeRespiroAzul">Casa de Respiro »</Link></button>
+                    </div>
                 </div>
 
 

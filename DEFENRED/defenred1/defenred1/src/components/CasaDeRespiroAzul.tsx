@@ -1,9 +1,14 @@
 import './css/CasaDeRespiroAzul.css'
+import { Helmet } from "react-helmet";
 
 const CasaDeRespiroAzul = () => {
   return (
     <div className='casa-respiro-azul'>
-
+      <Helmet>
+              <meta name="description" content="Nuestro programa de “Casa de Respiro” le prestamos atención al autocuidado para las personas defensoras de derechos humanos." />
+              <meta name="keywords" content="Programa, Casa de Respiro, Autocuiado, Estado de salud, Personas defensoras, La Cabrera, Naturaleza, Descansar, Herramientas de autocuidado,Acogedor y relajante" />
+              <title>El programa Casa de Respiro - Defenred</title>
+            </Helmet>
       <div>
 
         <div className=" grid grid-50">
@@ -142,14 +147,14 @@ const CasaDeRespiroAzul = () => {
 
         </div>
 
-<div className="frase">
-        <h2>~Un programa donde solo importa la Práctica~</h2>
+        <div className="frase">
+          <h2>~Un programa donde solo importa la Práctica~</h2>
+
+        </div>
+
 
       </div>
 
-
-      </div>
-      
     </div>
   );
 };

@@ -1,8 +1,16 @@
 import "./css/queHacemos.css";
+import { Helmet } from 'react-helmet';
 
 const Enredados = () => {
   return (
     <div id="enredados">
+      <Helmet>
+        <meta name="description" content="Defenred colabora con diversas organizaciones para construir una
+        red de apoyo solidario y coordinado en la defensa de derechos humanos, desde la
+        Casa de Respiro hasta alianzas globales." />
+        <meta name="keywords" content="Red de Defensoras, Pprogramas de Acogida de Personas Defensoras, Organizaciones de defensa de los derechos humanos" />
+        <title>Enredados Fortaleciendo la Red de Derechos Humanos</title>
+      </Helmet>
       <h2>
         <span className="naranja">Enredados:</span> Fortaleciendo la{" "}
         <strong>Red de Defensoras</strong> de <strong>Derechos Humanos</strong>
@@ -14,7 +22,7 @@ const Enredados = () => {
       <div className="grid grid50 caja">
         <div>
           <img className="imagenQueHacemos"
-            
+
             src="/medios/Fotografías e ilustraciones/imagen quehacemos2.png"
             alt=""
           />
@@ -41,7 +49,7 @@ const Enredados = () => {
             <strong>organizaciones de defensa de los derechos humanos</strong>.
           </p>
         </div>
-        
+
       </div>
     </div>
   );

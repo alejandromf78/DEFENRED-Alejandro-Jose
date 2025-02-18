@@ -1,8 +1,14 @@
 import "./css/quienesSomos.css";
+import { Helmet } from 'react-helmet';
 
 const QuienesSomos = () => {
   return (
     <div id="quienesSomosWrapper">
+      <Helmet>
+              <meta name="description" content="En Defenred apoyamos a defensores de derechos humanos con espacios de descanso y recuperación para fortalecer su labor hacia una sociedad más justa." />
+              <meta name="keywords" content="Derechos Humanos, Salud mental, Apoyo emocional, Casa de Respiro, Defensores, Espacio seguro, Solidaridad, Justicia, Autocuidado, Desconexion" />
+              <title>¿Quién es Defenred?</title>
+            </Helmet>
       <div id="quienesSomos">
         <h1 id="tituloQuienesSomos">
           ¿Quién es <strong>Defenred</strong>?

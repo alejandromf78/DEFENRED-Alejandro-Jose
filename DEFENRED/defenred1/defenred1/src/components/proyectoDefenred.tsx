@@ -6,7 +6,7 @@ const ProyectoDefenred = () => {
         <div className='inicio'>
             <Helmet>
                 <meta name="description" content="En Defenred ofrecemos apoyo a defensores de derechos humanos en riesgo, proporcionando un espacio seguro en la Casa de Respiro. Nuestro proyecto promueve el autocuidado y el bienestar integral para fortalecer su compromiso con la justicia social." />
-                <meta name="keywords" content="Apoyo,Derechos humanos,Riesgo,Red solidario,Casa de Respiro, Lugar Seguro, Salud física, Salud emocional, Autocuidado, Defensa de derechos humanos" />
+                <meta name="keywords" content="Apoyo,Derechos humanos,Riesgo,Red solidaria,Casa de Respiro, Lugar Seguro, Salud física, Salud emocional, Autocuidado, Defensa de derechos humanos" />
                 <title>Proyecto Defenred</title>
             </Helmet>
 

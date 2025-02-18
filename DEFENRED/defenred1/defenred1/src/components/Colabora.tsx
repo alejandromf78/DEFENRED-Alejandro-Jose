@@ -1,8 +1,14 @@
 import "./css/colabora.css";
+import { Helmet } from 'react-helmet';
 
 const Colabora = () => {
   return (
     <div id="Colabora">
+      <Helmet>
+              <meta name="description" content="Únete a nuestra misión para seguir apoyando a las personas defensoras de los derechos humanos y contribuye a conservar la Casa de Respiro y también su bienestar." />
+              <meta name="keywords" content="Derechos Humanos, Casa de Respiro, Red de solidaridad, Seguro, Defensoras, Autocuidado, Salud física, Salud emocional, Justicia social" />
+              <title>Colabora con Defenred</title>
+            </Helmet>
       
 
       <div id="contenedorForm" className="grid grid50" >

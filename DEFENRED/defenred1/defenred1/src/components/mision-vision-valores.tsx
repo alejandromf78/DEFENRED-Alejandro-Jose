@@ -1,8 +1,14 @@
 import "../components/css/mision-vision-valores.css";
+import {Helmet} from 'react-helmet';
 
 const MisionVisionValores = () => {
     return (
         <div className='mision'>
+            <Helmet>
+                            <meta name="description" content="Nuestra misión es apoyar a los defensores de derechos humanos en un entorno seguro y de autocuidado, impulsando el bienestar y la justicia social desde la Casa de Respiro. Descubre nuestros valores y visión de un mundo más justo y equitativo." />
+                            <meta name="keywords" content="Solidaridad, Apoyo, Derechos humanos, Justicia social, Bienestar integral, Inclusión, Saludable, Autocuidado, Casa de Respiro, Sostenible" />
+                            <title>Solidaridad en la Defensa de Derechos Humanos</title>
+                        </Helmet>
             <div className="div-mision">
                 <div className="contenido">
 

@@ -1,9 +1,14 @@
 import "./css/contacto.css";
-
+import { Helmet } from "react-helmet";
 
 const Contacto = () => {
   return (
     <div id="contenedorContacto">
+      <Helmet>
+              <meta name="description" content="Descripción: ¿Tienes preguntas? En Defenred, estamos aquí para ofrecerte más información sobre nuestros programas de autocuidado y apoyo a defensores de derechos humanos. Contáctanos para saber más." />
+              <meta name="keywords" content="Contacto, Derechos humanos, Autocuidado, Defenred, Apoyo, Red de Apoyo, Solidaridad, Programa de autocuidado" />
+              <title>Contacta con Defenred</title>
+            </Helmet>
       <h1>
         Contacta con <strong>Defenred</strong>{" "}
       </h1>
