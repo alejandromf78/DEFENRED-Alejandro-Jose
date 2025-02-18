@@ -5,10 +5,10 @@ const CasaDeRespiroAzul = () => {
   return (
     <div className='casa-respiro-azul'>
       <Helmet>
-              <meta name="description" content="Nuestro programa de “Casa de Respiro” le prestamos atención al autocuidado para las personas defensoras de derechos humanos." />
-              <meta name="keywords" content="Programa, Casa de Respiro, Autocuiado, Estado de salud, Personas defensoras, La Cabrera, Naturaleza, Descansar, Herramientas de autocuidado,Acogedor y relajante" />
-              <title>El programa Casa de Respiro - Defenred</title>
-            </Helmet>
+        <meta name="description" content="Nuestro programa de “Casa de Respiro” le prestamos atención al autocuidado para las personas defensoras de derechos humanos." />
+        <meta name="keywords" content="Programa, Casa de Respiro, Autocuiado, Estado de salud, Personas defensoras, La Cabrera, Naturaleza, Descansar, Herramientas de autocuidado,Acogedor y relajante" />
+        <title>El programa Casa de Respiro - Defenred</title>
+      </Helmet>
       <div>
 
         <div className=" grid grid-50">
@@ -115,45 +115,44 @@ const CasaDeRespiroAzul = () => {
       </div>
 
       <div className='donde-se-realiza'>
-        <div className='contenedor-2'>
+        <div className='contenedor'>
+
+          <div className='derecha'>
+            <div className='
+            parrafo'>
+              <p>
+                La <strong>Casa de Respiro</strong> se encuentra en un pequeño municipio cercano a <strong>Madrid</strong> llamado <strong>La
+                Cabrera</strong>, en un entorno rural tranquilo que ofrece contacto con la <strong>naturaleza</strong> y <strong>espacios
+                abiertos</strong> ideales para <strong>pasear</strong> y <strong>descansar</strong>.
+              </p>
+
+              <p>
+                La ubicación permite a los visitantes disfrutar
+                de un ambiente <strong>acogedor</strong> y <strong>relajante</strong>, facilitando un descanso adecuado. Además, el
+                entorno ofrece oportunidades de conexión con la comunidad local y municipios cercanos,
+
+                permitiendo participar en actividades variadas en un espacio natural y saludable, lo que
+                contribuye positivamente al programa de autocuidado.
+              </p>
+
+            </div>
 
 
+
+
+
+          </div>
 
           <div className='izquierda'>
-
             <h2>¿Dónde y cómo se realizará el programa?</h2>
-
-            <p>
-              La <strong>Casa de Respiro</strong> se encuentra en un pequeño municipio
-              cercano a <strong>Madrid</strong> llamado <strong>La Cabrera</strong>,
-              en un entorno rural tranquilo que ofrece{" "}
-              <strong>contacto con la naturaleza</strong> y espacios abiertos ideales
-              para pasear y descansar. La ubicación permite a los visitantes disfrutar
-              de un ambiente <strong>acogedor</strong> y <strong>relajante</strong>,
-              facilitando un descanso adecuado.
-            </p>
-            <p>
-              Además, el entorno ofrece oportunidades de conexión con la comunidad
-              local y municipios cercanos, permitiendo participar en actividades
-              variadas en un espacio <strong>natural</strong> y{" "}
-              <strong>saludable</strong>, lo que contribuye positivamente al programa
-              de <strong>autocuidado</strong>.
-            </p>
-
-          </div>
-          <div className='derecha'>
-            <img src="/medios/Fotografías e ilustraciones/Montaña con personas.png" alt="" />
+            <img src="/medios/Fotografías e ilustraciones/vacas.png" alt="" />
           </div>
 
         </div>
-
-        <div className="frase">
-          <h2>~Un programa donde solo importa la Práctica~</h2>
-
-        </div>
-
-
+        
       </div>
+
+
 
     </div>
   );

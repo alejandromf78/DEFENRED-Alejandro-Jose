@@ -51,7 +51,8 @@
   }
 
   & h2 {
-    font-family: 'OpenSansItalic';
+    font-family: var(--fuente-titulo);
+    color: var(--naranja);
     text-align: left;
     font-size: 60px;
     margin-bottom: 40px;
@@ -62,9 +63,12 @@
   & h3 {
     margin-top: 15px;
   }
+  & strong{
+    color: black;
+  }
 
   & p {
-    font-family: 'OpenSansItalic';
+    font-family: var(--fuente-texto);
     margin-bottom: 20px;
     font-size: 20px;
     color: black;
@@ -140,7 +144,7 @@
 
     & h2 {
       margin-bottom: 50px;
-      color: white;
+      color: var(--naranja);
       font-size: 56px;
       text-align: center;
     }
@@ -149,45 +153,49 @@
 }
 
 .donde-se-realiza {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
 
-
-  & .contenedor-2 {
+  & .contenedor {
     display: grid;
     grid-template-columns: 60% 40%;
     width: 75%;
-    background-color: rgb(43, 0, 122);
     margin: auto;
-    padding: 30px;
+    padding: 70px 0px;
     text-align: center;
     gap: 40px;
   }
 
   & .izquierda {
+    & h2 {
+      font-size: 40px;
+      color: black;
+      margin-top: 0;
+      text-align: left;
+    }
+  }
+
+  &.derecha {
     width: 90%;
     margin: auto;
     margin-top: 30px;
     padding-top: 45px;
-  }
 
-  &.derecha {
-    
+
 
   }
 
-  & p {
-    text-align: left;
-    color: white;
-    padding: 40px 0px;
-  }
+  & .parrafo {
+padding-top:40px;
 
-  & .frase {
-    padding: 10px;
-
-    & h2 {
-      margin-bottom: 50px;
-      color: rgb(211, 32, 32);
-      font-size: 56px;
-      text-align: center;
+    & p {
+      font-family: var(--fuente-texto);
+      text-align: left;
+      color: rgb(0, 0, 0);
+      padding: 30px 0px;
+    }
+    & strong{
+      color: rgb(209, 148, 158);
     }
   }
 
