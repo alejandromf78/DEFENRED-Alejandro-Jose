@@ -75,8 +75,8 @@ const CasaDeRespiroAzul = () => {
       <div className='que-ofrecemos'>
         <div className='contenedor'>
           <div className='izquierda'>
-            <h2>¿Qué ofrecemos en nuestro programa?</h2>
-            <img src="https://www.allcitycanvas.com/wp-content/uploads/2019/07/las-cuentas-mas-random-de-instagram-horizontal.jpg" alt="" />
+            <h2>¿Qué ofrecemos?</h2>
+            <img src="/medios/Fotografías e ilustraciones/vacas.png" alt="" />
           </div>
           <div className='derecha'>
             <p>
@@ -102,18 +102,19 @@ const CasaDeRespiroAzul = () => {
 
           </div>
 
+        </div>
+        <div className="frase">
+          <h2>~Un programa donde solo importa la Práctica~</h2>
 
         </div>
       </div>
 
       <div className='donde-se-realiza'>
         <div className='contenedor-2'>
-          <div>
-
-          </div>
 
 
-          <div>
+
+          <div className='izquierda'>
 
             <h2>¿Dónde y cómo se realizará el programa?</h2>
 
@@ -135,36 +136,22 @@ const CasaDeRespiroAzul = () => {
             </p>
 
           </div>
-
+          <div className='derecha'>
+            <img src="/medios/Fotografías e ilustraciones/Montaña con personas.png" alt="" />
+          </div>
 
         </div>
 
+<div className="frase">
+        <h2>~Un programa donde solo importa la Práctica~</h2>
+
+      </div>
 
 
       </div>
+      
     </div>
   );
 };
 
 export default CasaDeRespiroAzul;
-
-
-
-
-//
-//           <p>
-//             La <strong>Casa de Respiro</strong> se encuentra en un pequeño municipio
-//             cercano a <strong>Madrid</strong> llamado <strong>La Cabrera</strong>,
-//             en un entorno rural tranquilo que ofrece{" "}
-//             <strong>contacto con la naturaleza</strong> y espacios abiertos ideales
-//             para pasear y descansar. La ubicación permite a los visitantes disfrutar
-//             de un ambiente <strong>acogedor</strong> y <strong>relajante</strong>,
-//             facilitando un descanso adecuado.
-//           </p>
-//           <p>
-//             Además, el entorno ofrece oportunidades de conexión con la comunidad
-//             local y municipios cercanos, permitiendo participar en actividades
-//             variadas en un espacio <strong>natural</strong> y{" "}
-//             <strong>saludable</strong>, lo que contribuye positivamente al programa
-//             de <strong>autocuidado</strong>.
-//           </p>

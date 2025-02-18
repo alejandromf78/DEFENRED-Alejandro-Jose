@@ -53,7 +53,7 @@
   & h2 {
     font-family: 'OpenSansItalic';
     text-align: left;
-    font-size: 45px;
+    font-size: 60px;
     margin-bottom: 40px;
     margin-top: 40px;
 
@@ -66,9 +66,8 @@
   & p {
     font-family: 'OpenSansItalic';
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 20px;
     color: black;
-    padding: 30px;
   }
 
   & ul {
@@ -76,6 +75,7 @@
     padding: 0px 20px;
     margin: 0;
     text-align: left;
+    font-size: 18px;
 
   }
 
@@ -88,13 +88,14 @@
     vertical-align: top;
     max-width: 100%;
     height: auto;
+    border-radius: 20px;
   }
 
   & span img {
     border-style: none;
     vertical-align: top;
     max-width: 100%;
-    height: 30px;
+    height: 44px;
   }
 
   & span {
@@ -103,37 +104,56 @@
     margin-right: 10px;
   }
 }
-.que-ofrecemos{
-  background-color: chartreuse;
-  & .contenedor{
+
+.que-ofrecemos {
+  background-color: #31484a;
+  color: white;
+
+  & .contenedor {
     display: grid;
     grid-template-columns: 40% 60%;
     width: 75%;
-    background-color: aqua;
     margin: auto;
-    padding: 30px;
+    padding: 70px 0px;
     text-align: center;
     gap: 40px;
   }
-  & .izquierda{
-    width: 80%;
 
-  }
-  &.derecha{
+  & .izquierda {}
+
+  &.derecha {
     width: 90%;
     margin: auto;
-    
+    margin-top: 30px;
+    padding-top: 45px;
+
   }
-  & p{
-      text-align: justify;
+
+  & p {
+    text-align: left;
+    color: white;
+    padding: 40px 0px;
+  }
+
+  & .frase {
+    padding: 10px;
+
+    & h2 {
+      margin-bottom: 50px;
+      color: white;
+      font-size: 56px;
+      text-align: center;
     }
+  }
 
 }
-.donde-se-realiza{
-  background-color: brown;
-  & .contenedor-2{
+
+.donde-se-realiza {
+
+
+  & .contenedor-2 {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 60% 40%;
     width: 75%;
     background-color: rgb(43, 0, 122);
     margin: auto;
@@ -141,6 +161,34 @@
     text-align: center;
     gap: 40px;
   }
-  
+
+  & .izquierda {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 45px;
+  }
+
+  &.derecha {
+    
+
+  }
+
+  & p {
+    text-align: left;
+    color: white;
+    padding: 40px 0px;
+  }
+
+  & .frase {
+    padding: 10px;
+
+    & h2 {
+      margin-bottom: 50px;
+      color: rgb(211, 32, 32);
+      font-size: 56px;
+      text-align: center;
+    }
+  }
 
 }
