@@ -51,6 +51,7 @@ app.post('/api/contacto', async (req, res) => {
   try {
     const nuevoContacto = new Contacto(req.body);
     await nuevoContacto.save();
+    
     res.status(201).json({ message: 'Formulario de contacto enviado correctamente.' });
   } catch (error) {
     res.status(400).json({ error: 'Error al enviar el formulario de contacto.' });
