@@ -1,16 +1,17 @@
 import "./css/contacto.css";
 
 const Contacto = () => {
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault(); // Evita que el formulario recargue la página
 
     // Recopilamos los datos del formulario
+    const target = e.target as HTMLFormElement;
     const data = {
-      nombre: e.target[0].value, // Nombre y apellidos
-      email: e.target[1].value,  // Email
-      telefono: e.target[2].value || null, // Teléfono (opcional)
-      privacidad: e.target[3].checked, // Checkbox de privacidad
-      boletin: e.target[4].checked,   // Checkbox de boletín
+      nombre: (target[0] as HTMLInputElement).value, // Nombre y apellidos
+      email: (target[1] as HTMLInputElement).value,  // Email
+      telefono: (target[2] as HTMLInputElement).value || null, // Teléfono (opcional)
+      privacidad: (target[3] as HTMLInputElement).checked, // Checkbox de privacidad
+      boletin: (target[4] as HTMLInputElement).checked,   // Checkbox de boletín
     };
 
     // Realizamos la solicitud al backend
