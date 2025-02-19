@@ -11,12 +11,11 @@ app.use(express.json());
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 
-// Ruta principal
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
-// Ruta para insertar datos del formulario
+// para insertar datos del formulario
 app.post("/insertarFormulario", (req, res) => {
     const datos = req.body;
     console.log(datos);
@@ -41,7 +40,7 @@ app.post("/insertarFormulario", (req, res) => {
         });
 });
 
-// Ruta para obtener todos los formularios
+// para obtener todos los formularios
 app.get("/obtenerFormularios", async (req, res) => {
     try {
         const formularios = await Formulario.find();
@@ -51,7 +50,7 @@ app.get("/obtenerFormularios", async (req, res) => {
     }
 });
 
-// Manejo de rutas no encontradas
+// respuesta si la ruta no existe
 app.use((req, res) => {
     res.status(404).sendFile(path.join(__dirname, "public", "404.html"));
 });

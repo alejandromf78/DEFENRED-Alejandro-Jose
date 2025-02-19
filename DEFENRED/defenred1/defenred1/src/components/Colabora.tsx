@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 
 const Colabora = () => {
 
-  // Definimos un tipo para acceder a los datos del formulario
+  // Objeto para base de datos
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 

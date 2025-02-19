@@ -10,7 +10,7 @@ const formularioSchema = new mongoose.Schema({
         required: true
     },
     telefono: {
-        type: String,  // Cambié a String para permitir caracteres no numéricos
+        type: String,  
         required: true
     },
     cantidadDonacion: {
