@@ -65,8 +65,9 @@
   }
   & strong{
     font-family: 'Montserrat';
-    color: black;
-  }
+    font-weight: 600;
+    color:black
+}
 
   & p {
     font-family: var(--fuente-texto);
@@ -140,6 +141,11 @@
     color: white;
     padding: 40px 0px;
   }
+  & strong{
+      font-family: 'Montserrat';
+      font-weight:600;
+      color: white;
+  }
 
   & .frase {
     padding: 10px;
@@ -198,8 +204,9 @@ padding-top:40px;
     }
     & strong{
       font-family: 'Montserrat';
-      color: rgb(209, 148, 158);
-    }
+      font-weight:600;
+      color: black;
+  }
   }
 
 }
