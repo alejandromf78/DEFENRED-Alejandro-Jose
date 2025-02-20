@@ -59,6 +59,8 @@
 }
 & .amarilloFondo{
     background-color: var(--naranja);
+    border: 1px solid white;
+    color: white;
 
 }
 & #checkbox1 , #checkbox2{

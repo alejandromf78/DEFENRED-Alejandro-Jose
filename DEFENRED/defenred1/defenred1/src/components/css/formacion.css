@@ -114,7 +114,7 @@
 }
 
 #algunas-formaciones {
-    background-color: orange;
+    background-color: var(--col-principal);
 
     & img {
         max-width: 100%;

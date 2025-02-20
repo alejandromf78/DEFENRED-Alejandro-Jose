@@ -98,7 +98,7 @@ const Formacion = () => {
               </div>
 
               <div className='autocuidados-equipos'>
-                <h3>autocuidados Equipos</h3>
+                <h3>Autocuidados Equipos</h3>
                 <div className='ciudad'><h4>México</h4></div>
                 <p>Taller "Yo me cuido, tu me cuidas, nosotras nos cuidamos" para el colectivo social</p>
               </div>
