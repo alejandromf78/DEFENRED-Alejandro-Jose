@@ -67,7 +67,7 @@
     }
   
     & p {
-      font-family: 'OpenSansItalic';
+      font-family: var(--fuente-texto);
       margin-bottom: 20px;
       font-size: 18px;
       color: black;

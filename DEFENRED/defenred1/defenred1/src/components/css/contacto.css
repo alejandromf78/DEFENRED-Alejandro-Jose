@@ -14,7 +14,7 @@
 }
 
 & p{
-    font-family:"Montserrat" ;
+    font-family: var(--fuente-texto);
 }
 #subtituloContacto{
     text-align: center;

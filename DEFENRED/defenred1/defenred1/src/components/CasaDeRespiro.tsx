@@ -53,7 +53,7 @@ const CasaDeRespiro = () => {
                     <img src="/medios/Fotografías e ilustraciones/Naturaleza pájaros.png" alt="Naturaleza pájaros" className='foto-derecha' />
 
                     <div className="boton-casa">
-                        <button className="casa-respiro"><Link to="/CasaDeRespiroAzul">Casa de Respiro »</Link></button>
+                        <button className="casa-respiro"><Link to="/CasaDeRespiro">Casa de Respiro »</Link></button>
                     </div>
                 </div>
 

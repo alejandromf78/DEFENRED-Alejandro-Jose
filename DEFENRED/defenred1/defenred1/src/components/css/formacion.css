@@ -26,6 +26,7 @@
 
     & .texto {
         & p {
+            font-family: var(--fuente-texto);
             font-size: 18px;
             color: #555;
             margin: 20px 0;
@@ -50,6 +51,7 @@
     }
 
     & strong {
+        font-family: 'Montserrat';
         color: black;
     }
 }
@@ -74,6 +76,7 @@
 
     & .derecha {
         & p {
+            font-family: var(--fuente-texto);
             font-size: 18px;
             color: white;
         }
@@ -105,6 +108,7 @@
     }
 
     & strong {
+        font-family: 'Montserrat';
         color: rgba(222, 236, 18, 0.801);
     }
 }
@@ -170,6 +174,7 @@
     }
 
     & p {
+        font-family: var(--fuente-texto);
         text-align: left;
         width: 80%;
         color: white;
@@ -186,3 +191,19 @@
                 
     }
 }
+
+
+/* :root{
+    --fuente-logo: 'Rametto';
+    --fuente-titulo: 'OpenSansBold';
+    --fuente-texto: 'Montserrat';
+    
+    --col-principal: #81c3c9;
+    --negro: #000000;
+    --azul-oscuro: #31484a;
+    --blanco: #FFFFFF;
+    --marron: #746960;
+    --gris: #7b888a;
+    --naranja: #c99f81;
+    
+    } */
