@@ -1,5 +1,6 @@
 import "./css/proyectoDefenred.css";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 
 const ProyectoDefenred = () => {
     return (
@@ -27,7 +28,7 @@ const ProyectoDefenred = () => {
                             y la justicia social.</p>
 
                         <div className="boton-casa">
-                            <button className="casa-respiro">Casa de Respiro</button>
+                            <button className="casa-respiro"><Link to="/CasaDeRespiro">Casa de Respiro »</Link></button>
                         </div>
 
 
