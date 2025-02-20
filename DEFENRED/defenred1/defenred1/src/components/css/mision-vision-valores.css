@@ -39,15 +39,22 @@
       width: 80%;
       transition: all 0.3s ease; /* Transición suave para todo */
       border-radius: 25px;
+
+      
   }
   
   & .mision-defenred:hover, 
   & .vision-defenred:hover, 
   & .valores-defenred:hover {
       background-color: #000; /* Cambia el color de fondo a negro */
-      color: #fff; /* Cambia el texto a blanco */
+      color: #81c3c9; /* Cambia el texto a blanco */
       transform: scale(1.05); /* Aumenta ligeramente el tamaño */
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil para dar profundidad */
+
+      p{
+        color: #81c3c9;
+      }
+      img{filter: grayscale(100%);}
   }
   
   & .imagen-bosque {
@@ -59,15 +66,17 @@
       border-top-right-radius: 25px;
   }
   
-  & .imagen-bosque:hover {
-      filter: grayscale(100%); /* Cambia la imagen a blanco y negro */
-  }
+  
 
   & p {
-    font-family: 'OpenSansItalic';
+    font-family: var(--fuente-texto);
     margin-bottom: 15px;
     font-size: 18px;
     color: black;
     padding: 30px;
 }
+
+  & p:hover{
+    color: white;
+  }
 }
