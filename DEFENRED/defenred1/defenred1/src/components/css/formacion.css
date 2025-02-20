@@ -37,7 +37,7 @@
     & .boton {
         display: inline-block;
         padding: 10px 20px;
-        background-color: #c3836a;
+        background-color: var(--naranja);
         color: white;
         text-decoration: none;
         font-size: 1em;
@@ -84,7 +84,7 @@
         & h2 {
             margin-bottom: 50px;
             color: white;
-            font-size: 56px;
+            font-size: 45px;
         }
     }
 
@@ -108,8 +108,11 @@
     }
 
     & strong {
-        font-family: 'Montserrat';
-        color: rgba(222, 236, 18, 0.801);
+        
+            font-family: 'Montserrat';
+            font-weight:600;
+            color: white;
+        
     }
 }
 
