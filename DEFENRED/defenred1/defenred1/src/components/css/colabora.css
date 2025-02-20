@@ -18,6 +18,7 @@ text-align: center;
     color: white;
     font-size: 30px;
     margin: 30px;
+    font-family: "OpenSansItalic";
 }
 
 & .metaDescripcion{
@@ -61,6 +62,7 @@ text-align: center;
 
 & #botonEnviarForm{
     bottom: 0px;
+    
 }
 
 & .amarillo{
@@ -68,6 +70,8 @@ text-align: center;
 }
 & .amarilloFondo{
     background-color: var(--naranja);
+    color: white;
+    border: white 1px solid;
 
 }
 & #checkbox1 , #checkbox2{

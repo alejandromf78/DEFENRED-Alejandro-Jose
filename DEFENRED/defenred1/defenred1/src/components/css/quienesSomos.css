@@ -16,13 +16,16 @@
     }
     
     & h1{
-        font-family: var(--fuente-titulo);
+        font-family: "OpenSansItalic";
+        font-size: 60px;
+        
     }
     & h2{
         font-family: var(--fuente-titulo);
     }
     & p{
         font-family: var(--fuente-texto);
+        text-align: justify;
     }
     #contenedorTestimonios{
         border: 1px black solid;
