@@ -56,21 +56,21 @@ function Footer() {
             {/* Columa quienes somos(primera columna) */}
             <div className="quien">
               <h4>Quiénes Somos</h4>
-              <div className="links">Nuestro Proposito</div>
+              <div className="links">Nuestro Propósito</div>
               <div className="links">Nuestra Historia</div>
               <div className="links">Trabaja con nosotros</div>
             </div>
             {/* Columna que hacemos(segunda columna) */}
             <div>
               <h4>Qué hacemos</h4>
-              <div className="links">Nuestro Proposito</div>
+              <div className="links">Nuestro Propósito</div>
               <div className="links">Nuestra Historia</div>
               <div className="links">Trabaja con nosotros</div>
             </div>
 
             <div>
               <h4>Quiénes Somos</h4>
-              <div>Nuestro Proposito</div>
+              <div>Nuestro Propósito</div>
               <div>Nuestra Historia</div>
               <div>Trabaja con nosotros</div>
             </div>
